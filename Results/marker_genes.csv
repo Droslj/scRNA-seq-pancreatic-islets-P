@@ -1,0 +1,121 @@
+,gene_symbol,cell_type
+0,PPY,PP
+1,PEG10,PP
+2,ID2,PP
+3,TUBB2A,PP
+4,CPB1,PP
+5,MIR181A1HG,PP
+6,ID3,PP
+7,TSPAN8,PP
+8,PCDH8,PP
+9,GCNT3,PP
+0,MBOAT4,alpha_MHC II
+1,MUC13,alpha_MHC II
+2,TM4SF4,alpha_MHC II
+3,AC023590.1,alpha_MHC II
+4,F10,alpha_MHC II
+5,TXNDC5,alpha_MHC II
+6,LMF2,alpha_MHC II
+7,FXYD3,alpha_MHC II
+8,GPC6,alpha_MHC II
+9,GCG,alpha_MHC II
+0,TTR,alpha_immature
+1,PRSS3,alpha_immature
+2,ID1,alpha_immature
+3,SPINK1,alpha_immature
+4,CTSV,alpha_immature
+5,AQP3,alpha_immature
+6,CALB2,alpha_immature
+7,S100A6,alpha_immature
+8,TMSB10,alpha_immature
+9,TMEM176A,alpha_immature
+0,GCG,alpha_mature
+1,CRYBA2,alpha_mature
+2,TTR,alpha_mature
+3,INS,alpha_mature
+4,MT2A,alpha_mature
+5,FABP5,alpha_mature
+6,LINC00348,alpha_mature
+7,TM4SF4,alpha_mature
+8,LOXL4,alpha_mature
+9,ALDH1A1,alpha_mature
+0,GCG,alpha_stress II
+1,SQSTM1,alpha_stress II
+2,GC,alpha_stress II
+3,TTR,alpha_stress II
+4,RSAD2,alpha_stress II
+5,VIM,alpha_stress II
+6,ARF4,alpha_stress II
+7,AGTR1,alpha_stress II
+8,DEPP1,alpha_stress II
+9,LURAP1L,alpha_stress II
+0,TSPAN1,beta_MHC/autoantigen
+1,PRSS23,beta_MHC/autoantigen
+2,SIL1,beta_MHC/autoantigen
+3,RASSF8-AS1,beta_MHC/autoantigen
+4,ABHD3,beta_MHC/autoantigen
+5,CABP1,beta_MHC/autoantigen
+6,RP11-16B13.1,beta_MHC/autoantigen
+7,ATP9A,beta_MHC/autoantigen
+8,UBXN4,beta_MHC/autoantigen
+9,INS,beta_MHC/autoantigen
+0,INS,beta_immature
+1,RASD1,beta_immature
+2,KCNMA1,beta_immature
+3,IER3,beta_immature
+4,ELF3,beta_immature
+5,RPL37A,beta_immature
+6,SNX3,beta_immature
+7,SEPTIN9,beta_immature
+8,CLU,beta_immature
+9,TNFRSF12A,beta_immature
+0,INS,beta_mature
+1,MALAT1,beta_mature
+2,MT1X,beta_mature
+3,MT2A,beta_mature
+4,SAMD11,beta_mature
+5,DHRS2,beta_mature
+6,MT-ND4,beta_mature
+7,SST,beta_mature
+8,MT1E,beta_mature
+9,MT-ND2,beta_mature
+0,TSC22D1,beta_mtDNA deficient
+1,IAPP,beta_mtDNA deficient
+2,IGF2,beta_mtDNA deficient
+3,PEMT,beta_mtDNA deficient
+4,GAD2,beta_mtDNA deficient
+5,AKR1C3,beta_mtDNA deficient
+6,INS,beta_mtDNA deficient
+7,ID1,beta_mtDNA deficient
+8,HOPX,beta_mtDNA deficient
+9,DBI,beta_mtDNA deficient
+0,CKB,beta_stress I
+1,MT2A,beta_stress I
+2,MED30,beta_stress I
+3,GADD45B,beta_stress I
+4,ASB9,beta_stress I
+5,SHISAL2B,beta_stress I
+6,UBB,beta_stress I
+7,IAPP,beta_stress I
+8,MT1E,beta_stress I
+9,RP11-161H23.9,beta_stress I
+0,PDIA4,beta_stress II
+1,YY1,beta_stress II
+2,TRIB3,beta_stress II
+3,MIR22HG,beta_stress II
+4,RAD9A,beta_stress II
+5,KNG1,beta_stress II
+6,DPH3,beta_stress II
+7,HSPA5,beta_stress II
+8,ARID5B,beta_stress II
+9,SEC11C,beta_stress II
+0,RBP4,delta
+1,SST,delta
+2,CD9,delta
+3,PRG4,delta
+4,PDLIM4,delta
+5,HHEX,delta
+6,TMEM190,delta
+7,KCTD8,delta
+8,MEST,delta
+9,LY6H,delta
