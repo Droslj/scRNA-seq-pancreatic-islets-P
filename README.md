@@ -1,30 +1,40 @@
-# scRNA-seq-pancreatic-islets-
+# Case study: Behaviour of Pancreatic cells exposed to Metabolic stress
 
-scRNA cell data processing using scanpy and functional analysis  
+This study examined the functional changes of different pancreatic cells under conditions of metabolic stress (overnutrition). I performed complete scRNA cell raw data processing using different platforms and tools. Final functional analysis was performed using scanpy. Samples used for this case study come from the following study [1] 
 
-Samples used come from the following study [1] 
-This study examined the functional changes of different pancreatic cells under conditions of metabolic stress (overnutrition).
+# Processing flow
 
-Processing flow:
+Complete processing flow [*] was divided into four stages and is depicted in the Figure 1:
 
-Figure 1: Complete Processing flow
+![Complete processing flow](Images/Complete_processing_flow.png)
 
-Part I - Preprocessing of scRNA-seq reads and matrix creation (Galaxy WF):
+**Figure 1: Complete Processing flow**
+
+## Part I - Preprocessing
+
+Part I included preprocessing of scRNA-seq reads and matrix creation (Galaxy WF). Following steps were performed in the galaxy environment (usegalaxy.eu):
+
  (1) Mapping (RNAstar solo)
  (2) Utility for handling of SC input data (DropletUtils)
  (3) AD object creation
 
-Part II - Preprocessing of reference dataset [2] and its use for annotation of query dataset using scanpy ingest (Jupyter notebook w/python core)
-(1) Load and preprocess the reference dataset
-(2) Import query dataset from google drive
-(3) Update gene annotation for query dataset
-(4) Preprocess query dataset
-(5) Dimensionality reduction and clustering (query dataset)
-(6) Remove cells not expected in query dataset from reference dataset
-(7) Intersect genes between two datasets
-(8) Map onto a reference dataset using ingest
+## Part II - Integration of annotation and metadata 
 
-Part III - SC complete processing pipeline (scanpy standard flow) + trajectory inference + Celltypist cell annotation (Jupyter notebook w/python core) 
+Part II of the processing included preprocessing of reference dataset [2] and its use for annotation of query dataset using scanpy ingest. It was performed on Google colab environment (Jupyter notebook w/python core - code can be made available on request) Following steps were performed: 
+
+ (1) Load and preprocess the reference dataset
+ (2) Import query dataset from google drive
+ (3) Update gene annotation for query dataset
+ (4) Preprocess query dataset
+ (5) Dimensionality reduction and clustering (query dataset)
+ (6) Remove cells not expected in query dataset from reference dataset
+ (7) Intersect genes between two datasets
+ (8) Map onto a reference dataset using ingest
+
+## Part III - single cell object Processing pipeline
+
+Part III of the processing included downstream processing pipeline for SC (scanpy standard flow). It was performed on Google colab environment (Jupyter notebook w/python core - code can be made available on request). Following steps were performed:
+ 
  (1) Load AD object from Galaxy
  (2) Filter out reads containing genes that are not of interest (Mitochondrial, ribosomal, hemoglobin genes, pseudogenes etc.)
  (3) Filter cells based on quality
@@ -43,14 +53,37 @@ Part III - SC complete processing pipeline (scanpy standard flow) + trajectory i
  (16) Automatic cell type annotation (celltypist)
  (17) Trajectory inference
 
-Part IV - Functional analysis
-(1) Split the reference data into training and testing sets
-(2) Train the RF classifier
-(3) Evaluate the model
-(4) Predict labels for query dataset
-(5) Hyperparameter tuning
-(6) Prediction
+## Part IV - Functional analysis
+
+Part IV of the processing included downstream Functional analysis of the obtained (**) results. Following analysis was performed:
+
+ (1) Conversion of the source .rds file into h5ad format (sceasy convert - usegalaxy.eu)
+ (2) Inspection, clean up and QC of the final adata object
+ (3) Single cell object processing w/scanpy
+ (4) Predict labels for query dataset
+ (5) HVG feature selection, scaling and dimensionality reduction
+ (6) Nearest neighbor graph construction
+ (7) Batch detection (see Figure 2) and removal (see Figure 3)
+ (8) Functional analysis - see following section.
+
+ # Biological Analysis of the Results 
+
+Final part of the analysis was interpreting obtained results in the light of metabolic stress conditions to which the cells were exposed. After processing steps (see Part IV, steps (1) - (6), plotting clusters of cell families in the data matrix revealed batch effect (see Figure 2).
+
+![Batch effect](Images/Batch_effect.png)
+
+**Figure 2: UMAP plots - batch effect** 
+
+After batch removal (using Harmony, Part IV, step (7),), the batch effect was not detected any more
+
+![Batch effect](Images/Batch_effect_removed.png)
+
+**Figure 3: UMAP plot of cell families - batch effect removed**
 
 References: 
-[1] Single-cell RNA Sequencing Uncovers Molecular Mechanisms of Human Pancreatic Islet Dysfunction Under Overnutrition Metabolic Stress (human) 
-[2] Tabula sapiens - pancreas.h5ad
+ [1] Single-cell RNA Sequencing Uncovers Molecular Mechanisms of Human Pancreatic Islet Dysfunction Under Overnutrition Metabolic Stress (human) 
+ [2] Tabula sapiens - pancreas.h5ad
+
+Notes:
+ (*) First three parts of the analysis were performed using a subset of full data available on the NCBI.
+ (**) Part IV - the Functional analysis was performed on the raw data set provided by the authors of the study (section Supplementary file). The .rds file was first converted to h5ad file format in the Galaxy platform and then imported into pyhton environment. Functional analysis was performed using this file, not the file obtained in the Parts I-III 
