@@ -1,9 +1,13 @@
 # scRNA-seq-pancreatic-islets-
 
-scRNA cell data processing and cell type annotation using different methods. 
+scRNA cell data processing using scanpy and functional analysis  
+
 Samples used come from the following study [1] 
-Samples preprocessed in Galaxy up to h5ad object, then uploaded to Google colab for further sc processing. 
-Dataset preprocessed for annotation transfer from reference dataset [2].
+This study examined the functional changes of different pancreatic cells under conditions of metabolic stress (overnutrition).
+
+Processing flow:
+
+Figure 1: Complete Processing flow
 
 Part I - Preprocessing of scRNA-seq reads and matrix creation (Galaxy WF):
  (1) Mapping (RNAstar solo)
@@ -39,7 +43,7 @@ Part III - SC complete processing pipeline (scanpy standard flow) + trajectory i
  (16) Automatic cell type annotation (celltypist)
  (17) Trajectory inference
 
-Part IV - Use of Random forest classifier for prediction of cell type (Jupyter notebook w/python core) 
+Part IV - Functional analysis
 (1) Split the reference data into training and testing sets
 (2) Train the RF classifier
 (3) Evaluate the model
