@@ -72,13 +72,39 @@ Final part of the analysis was interpreting obtained results in the light of met
 
 ![Batch effect](Images/Batch_effect.png)
 
-**Figure 2: UMAP plots - batch effect** 
+**Figure 2: UMAP plots (batch, treatment, cell.type.final) - batch effect** 
 
-After batch removal (using Harmony, Part IV, step (7),), the batch effect was not detected any more
+After batch removal (using Harmony, Part IV, step (7)), the batch effect was not detected any more, see Figure 3.
 
 ![Batch effect](Images/Batch_effect_removed.png)
 
-**Figure 3: UMAP plot of cell families - batch effect removed**
+**Figure 3: UMAP plots - batch effect removed**
+
+**Comment**
+
+Comparing middle plot for Acinar, Ductal and Alpha cells clusters shows complete overlapping of treated and control conditions. This confirms that these cell types are relatively stable in their overall transcriptomic identity (resilience).
+Beta cells cluster on the other hand shows some separation between Control and Treated conditions, which denotes change of transcriptomic identity.
+
+![UMAP](Images/Cell_type_cluster.png)
+
+**Figure 4: UMAP plot of cell families**
+
+**Comment**
+
+The UMAP plot of cell families shows also rare epsilon cells, which are closely related to alpha cells. Separate plot is required to highlight their position in the UMAP plot to reveal the proximity to the alpha cells cluster.
+
+![Epsilon](Images/Eps_Alpha_cluster.png)
+
+**Figure 5: UMAP plot w/highlighted alpha/epsilon cell clusters**
+
+**Comment**
+
+The UMAP plot reveals that they are indeed near the alpha cluster, but they maintain their transcriptomic identity. Another important plot is the UMAP plot of Ghrelin they secrete.
+
+
+![UMAP](Images/Ghrelin.png)
+
+**Figure 6: UMAP plot of Ghrelin**
 
 References: 
  [1] Single-cell RNA Sequencing Uncovers Molecular Mechanisms of Human Pancreatic Islet Dysfunction Under Overnutrition Metabolic Stress (human) 
