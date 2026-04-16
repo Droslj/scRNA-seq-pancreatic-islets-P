@@ -13,23 +13,21 @@ Complete processing flow [*] was divided into four stages and is depicted in the
 ## Part I - Preprocessing
 
 Part I included preprocessing of scRNA-seq reads and matrix creation (Galaxy WF). Following steps were performed in the galaxy environment (usegalaxy.eu):
-
- (1) Mapping (RNAstar solo)
- (2) Utility for handling of SC input data (DropletUtils)
- (3) AD object creation
+ (1) Mapping (RNAstar solo) 
+ (2) Utility for handling of SC input data (DropletUtils) 
+ (3) AD object creation. 
 
 ## Part II - Integration of annotation and metadata 
 
 Part II of the processing included preprocessing of reference dataset [2] and its use for annotation of query dataset using scanpy ingest. It was performed on Google colab environment (Jupyter notebook w/python core - code can be made available on request) Following steps were performed: 
-
- (1) Load and preprocess the reference dataset/ 
- (2) Import query dataset from google drive/ 
- (3) Update gene annotation for query dataset
- (4) Preprocess query dataset
- (5) Dimensionality reduction and clustering (query dataset)
- (6) Remove cells not expected in query dataset from reference dataset
- (7) Intersect genes between two datasets
- (8) Map onto a reference dataset using ingest
+ (1) Load and preprocess the reference dataset 
+ (2) Import query dataset from google drive 
+ (3) Update gene annotation for query dataset 
+ (4) Preprocess query dataset 
+ (5) Dimensionality reduction and clustering (query dataset) 
+ (6) Remove cells not expected in query dataset from reference dataset 
+ (7) Intersect genes between two datasets 
+ (8) Map onto a reference dataset using ingest 
 
 ## Part III - single cell object Processing pipeline
 
