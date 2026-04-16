@@ -31,42 +31,40 @@ Part II of the processing included preprocessing of reference dataset [2] and it
 
 ## Part III - single cell object Processing pipeline
 
-Part III of the processing included downstream processing pipeline for SC (scanpy standard flow). It was performed on Google colab environment (Jupyter notebook w/python core - code can be made available on request). Following steps were performed:
- 
- (1) Load AD object from Galaxy
- (2) Filter out reads containing genes that are not of interest (Mitochondrial, ribosomal, hemoglobin genes, pseudogenes etc.)
- (3) Filter cells based on quality
- (4) Doublet detection
- (5) Normalization
- (6) Feature selection
- (7) Dimensionality reduction
- (8) Nearest neighbor graph constuction and visualization (UMAP + tSNE)
- (9) Clustering with Leiden comunity
- (10) Quality control and cell filtering - reassessment
- (11) Cluster annotation
- (12) Create markers for known Pancreatic cell types
- (13) Create dotplots to identify markers per cluster
- (14) Plot top cluster marker genes
- (15) Differentially expressed genes
- (16) Automatic cell type annotation (celltypist)
- (17) Trajectory inference
+Part III of the processing included downstream processing pipeline for SC (scanpy standard flow). It was performed on Google colab environment (Jupyter notebook w/python core - code can be made available on request). Following steps were performed:  
+ (1) Load AD object from Galaxy  
+ (2) Filter out reads containing genes that are not of interest (Mitochondrial, ribosomal, hemoglobin genes, pseudogenes etc.)  
+ (3) Filter cells based on quality  
+ (4) Doublet detection  
+ (5) Normalization  
+ (6) Feature selection  
+ (7) Dimensionality reduction  
+ (8) Nearest neighbor graph constuction and visualization (UMAP)  
+ (9) Clustering with Leiden comunity  
+ (10) Quality control and cell filtering - reassessment  
+ (11) Cluster annotation  
+ (12) Create markers for known Pancreatic cell types  
+ (13) Create dotplots to identify markers per cluster  
+ (14) Plot top cluster marker genes  
+ (15) Differentially expressed genes  
+ (16) Automatic cell type annotation (celltypist)  
+ (17) Trajectory inference.  
 
 ## Part IV - Functional analysis
 
-Part IV of the processing included downstream Functional analysis of the obtained (**) results. Following analysis was performed:
-
- (1) Conversion of the source .rds file into h5ad format (sceasy convert - usegalaxy.eu)
- (2) Inspection, clean up and QC of the final adata object
- (3) Single cell object processing w/scanpy
- (4) Predict labels for query dataset
- (5) HVG feature selection, scaling and dimensionality reduction
- (6) Nearest neighbor graph construction
- (7) Batch detection (see Figure 2) and removal (see Figure 3)
- (8) Functional analysis - see following section.
+Part IV of the processing included downstream Functional analysis of the obtained (**) results. Following analysis was performed:  
+ (1) Conversion of the source .rds file into h5ad format (sceasy convert - usegalaxy.eu)  
+ (2) Inspection, clean up and QC of the final adata object  
+ (3) Single cell object processing w/scanpy  
+ (4) Predict labels for query dataset  
+ (5) HVG feature selection, scaling and dimensionality reduction  
+ (6) Nearest neighbor graph construction  
+ (7) Batch detection (see Figure 2) and removal (see Figure 3)  
+ (8) Functional analysis - see following section.  
 
 # Biological Interpretation of the Results 
 
-Final part of the analysis was interpreting obtained results in the light of metabolic stress conditions to which the cells were exposed. After processing steps (see Part IV, steps (1) - (6), plotting clusters of cell families in the data matrix revealed batch effect (see Figure 2).
+Final part of the analysis was interpreting obtained results in the light of metabolic stress conditions to which the cells were exposed.<br> After processing steps (see Part IV, steps (1) - (6), plotting clusters of cell families in the data matrix revealed batch effect (see Figure 2).
 
 ![Batch effect](Images/Batch_effect.png)
 
@@ -80,7 +78,7 @@ After batch removal (using Harmony, Part IV, step (7)), the batch effect was not
 
 **Comment**
 
-Comparing middle plot for Acinar, Ductal and Alpha cells clusters shows complete overlapping of treated and control conditions. This confirms that these cell types are relatively stable in their overall transcriptomic identity (resilience).
+Comparing middle plot for Acinar, Ductal and Alpha cells clusters shows complete overlapping of treated and control conditions. <br> This confirms that these cell types are relatively stable in their overall transcriptomic identity (resilience).
 Beta cells cluster on the other hand shows some separation between Control and Treated conditions, which denotes change of transcriptomic identity.
 
 ![UMAP](Images/Cell_type_cluster.png)
@@ -89,7 +87,7 @@ Beta cells cluster on the other hand shows some separation between Control and T
 
 **Comment**
 
-The UMAP plot of cell families shows also rare epsilon cells, which are closely related to alpha cells. Separate plot is required to highlight their position in the UMAP plot to reveal the proximity to the alpha cells cluster.
+The UMAP plot of cell families shows also rare epsilon cells, which are closely related to alpha cells. <br>Separate plot is required to highlight their position in the UMAP plot to reveal the proximity to the alpha cells cluster.
 
 ![Epsilon](Images/Eps_Alpha_cluster.png)
 
@@ -97,7 +95,7 @@ The UMAP plot of cell families shows also rare epsilon cells, which are closely 
 
 **Comment**
 
-The UMAP plot reveals that they are indeed near the alpha cluster, but they maintain their transcriptomic identity. Another important plot is the UMAP plot of Ghrelin they secrete.
+The UMAP plot reveals that they are indeed near the alpha cluster, but they maintain their transcriptomic identity. <br>Another important plot is the UMAP plot of Ghrelin they secrete.
 
 
 ![UMAP](Images/Ghrelin.png)
