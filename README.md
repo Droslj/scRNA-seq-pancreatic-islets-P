@@ -113,28 +113,70 @@ The UMAP plot reveals that they are indeed near the alpha cluster, but they main
 
 **Comment**
 
-The UMAP plot reveals that secretioin of Ghrelin is most intense in the vicinity of epsilon cell cluster.
+The UMAP plot reveals that secretion of Ghrelin is most intense in the vicinity of epsilon cell cluster.
 
-## Cell type composition
+## Metabolic stress
 
-Cell type composition plot helps establish the cell type composition in relation to treatment.<br>
+Figure 7 shows response to metabolic stress of cells under test in a dotplot. Following markers were used<br>
+GCG -> most significant product of alpha cells
+INS -> most significant product of beta cells 
+EHMT1, EHMT2 -> Epigenetic modulators driving the remodeling of gene regulatory network under stress 
+GHRL -> most significant product of epsilon cells
 
-![Composition](Images/Cell_type_composition.png)
+![Metabolic stress](Images/Islet_stress_response.png)
 
-**Figure 7: Cell type composition**
+**Figure 7: Metabolic stress response of pancreatic islets**
 
-**Comment**
+This plot provided some detail, but in order to get a more detailed picture, I created separate plot of endocrine and exocrine cell families. 
 
-Endocrine cells<br>
-Alpha cells -> Plot shows a significant increase in the proportion of Alpha cells in the Treated group. This may indicate resilience under stress conditions  
-Beta Cells -> Beta cell show slight increase in percentage in the Treated group.<br>
-Exocrine cells -> Plot shows significant decrease in the Treated condition. This may suggest that the metabolic stress conditions are toxic to the exocrine compartment
+### Endocrine cell response to metabolic stress
 
+In order to make more distinction in the endocrine department, I created separate plots for Alpha cells (Figure 8) and Beta cells (Figure 9).
 
-References: 
- [1] Single-cell RNA Sequencing Uncovers Molecular Mechanisms of Human Pancreatic Islet Dysfunction Under Overnutrition Metabolic Stress (human) 
- [2] Tabula sapiens - pancreas.h5ad
+![Metabolic stress](Images/Metabolic_stress_alpha.png)
 
-Notes:
- (*) First three parts of the analysis were performed using a subset of full data available on the NCBI.
+**Figure 8: Alpha cell response**
+
+![Metabolic stress](Images/Metabolic_stress_beta.png)
+
+**Figure 9: Beta cell response**
+
+**Beta cells**
+
+(1) INS (Insulin) response
+Control population -> shows as a healthy state where almost 100% of beta cells are pumping out high levels of Insulin.
+Treated population -> fewer cells expressing INS, the average expression per cell has dropped 
+
+*Conclusion*
+This shows direct evidence of beta cell dysfunction.
+
+(2) Regulatory Flip -> Epigenetic regulators (EHMT1 and EHMT2), almost undetectable under normal conditions, exhibit significant increase in treated cell population 
+
+*Conclusion* 
+Metabolic stress triggers epigenetic regulators (G9a and GLP), which then act as brakes on the islet's functional genes like Insulin.
+
+**Alpha cells**
+
+(1) GCG (Glucagon) response
+Treated population -> GCG dot remains remarkably large and dark. This confirms that unlike beta cells, alpha cells do not lose their primary hormonal identity under metabolic stress.
+
+*Conclusion*
+Alpha cell response show resilience to metabolic stress
+
+(2) EHMT1/2 Upregulation
+Just like  beta cells,  alpha cells also show a dramatic increase in EHMT1 and EHMT2 expression. This proves that the epigenetic "stress response" is happening across all endocrine cells, but the outcome is different: it disables beta cells while alpha cells stay stable.
+
+**Final conclussion**
+Analysing this data, following conclussions can be made about pancreatic cells under metabolic stress:<br>
+ - Beta Cell Dysregulation -> Not just a loss of cells, but a loss of identity (lower INS)<br>
+ - Exocrine Metaplasia -> Evidence of Acinar cells attempting to survive by adopting Ductal-like progenitor markers (SOX9, KRT19)<br>
+ - Epigenetic Divergence -> The upregulation of EHMT1/2 specifically in the hormone-producing and digestive cells, but not in the supporting vasculature (Endothelial) <br>
+ - Systemic Stasis -> A lack of active pro-inflammatory signaling in the immune compartment, pointing toward direct metabolic toxicity rather than immune-mediated damage.<br>
+
+References:  
+ [1] Single-cell RNA Sequencing Uncovers Molecular Mechanisms of Human Pancreatic Islet Dysfunction Under Overnutrition Metabolic Stress (human)  
+ [2] Tabula sapiens - pancreas.h5ad  
+
+Notes:  
+ (*) First three parts of the analysis were performed using a subset of full data available on the NCBI.  
  (**) Part IV - the Functional analysis was performed on the raw data set provided by the authors of the study (section Supplementary file). The .rds file was first converted to h5ad file format in the Galaxy platform and then imported into pyhton environment. Functional analysis was performed using this file, not the file obtained in the Parts I-III 
