@@ -22,8 +22,8 @@ Part I included preprocessing of scRNA-seq reads and matrix creation (Galaxy WF)
 
 Part II of the processing included preprocessing of reference dataset [2] and its use for annotation of query dataset using scanpy ingest. It was performed on Google colab environment (Jupyter notebook w/python core - code can be made available on request) Following steps were performed: 
 
- (1) Load and preprocess the reference dataset
- (2) Import query dataset from google drive
+ (1) Load and preprocess the reference dataset/ 
+ (2) Import query dataset from google drive/ 
  (3) Update gene annotation for query dataset
  (4) Preprocess query dataset
  (5) Dimensionality reduction and clustering (query dataset)
