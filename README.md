@@ -69,7 +69,11 @@ Part IV of the processing included downstream Functional analysis of the obtaine
 
 # Biological Interpretation of the Results 
 
-Final part of the analysis was interpreting obtained results in the light of metabolic stress conditions to which the cells were exposed.<br> After processing steps (see Part IV, steps (1) - (6), plotting clusters of cell families in the data matrix revealed batch effect (see Figure 2).
+Final part of the analysis was interpreting obtained results in the light of metabolic stress conditions to which the cells were exposed.<br>
+
+## Cell identities
+
+After processing steps (see Part IV, steps (1) - (6), plotting clusters of cell families in the data matrix revealed batch effect (see Figure 2).
 
 ![Batch effect](Images/Batch_effect.png)
 
@@ -111,6 +115,20 @@ The UMAP plot reveals that they are indeed near the alpha cluster, but they main
 
 The UMAP plot reveals that secretioin of Ghrelin is most intense in the vicinity of epsilon cell cluster.
 
+## Cell type composition
+
+Cell type composition plot helps establish the cell type composition in relation to treatment.<br>
+
+![Composition](Images/Cedll_type_composition.png)
+
+**Figure 7: Cell type composition**
+
+**Comment**
+
+Endocrine cells<br>
+Alpha cells -> Plot shows a significant increase in the proportion of Alpha cells in the Treated group. This may indicate resilience under stress conditions  
+Beta Cells -> Beta cell show slight increase in percentage in the Treated group.<br>
+Exocrine cells -> Plot shows significant decrease in the Treated condition. This may suggest that the metabolic stress conditions are toxic to the exocrine compartment
 
 
 References: 
