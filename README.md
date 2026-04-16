@@ -119,7 +119,7 @@ The UMAP plot reveals that secretioin of Ghrelin is most intense in the vicinity
 
 Cell type composition plot helps establish the cell type composition in relation to treatment.<br>
 
-![Composition](Images/Cedll_type_composition.png)
+![Composition](Images/Cell_type_composition.png)
 
 **Figure 7: Cell type composition**
 
