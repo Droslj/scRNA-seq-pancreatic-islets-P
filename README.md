@@ -142,31 +142,31 @@ In order to make more distinction in the endocrine department, I created separat
 **Figure 9: Beta cell response**
 
 **Beta cells**
+<br>
+(1) INS (Insulin) response<br>
+Control population -> shows as a healthy state where almost 100% of beta cells are pumping out high levels of Insulin<br>
+Treated population -> fewer cells expressing INS, the average expression per cell has dropped.<br> 
 
-(1) INS (Insulin) response
-Control population -> shows as a healthy state where almost 100% of beta cells are pumping out high levels of Insulin.
-Treated population -> fewer cells expressing INS, the average expression per cell has dropped 
-
-*Conclusion*
+*Conclusion*<br>
 This shows direct evidence of beta cell dysfunction.
-
-(2) Regulatory Flip -> Epigenetic regulators (EHMT1 and EHMT2), almost undetectable under normal conditions, exhibit significant increase in treated cell population 
-
-*Conclusion* 
+<br>
+(2) Regulatory Flip -> Epigenetic regulators (EHMT1 and EHMT2), almost undetectable under normal conditions, exhibit significant increase in treated cell population.<br> 
+<br>
+*Conclusion*<br> 
 Metabolic stress triggers epigenetic regulators (G9a and GLP), which then act as brakes on the islet's functional genes like Insulin.
 
 **Alpha cells**
-
-(1) GCG (Glucagon) response
-Treated population -> GCG dot remains remarkably large and dark. This confirms that unlike beta cells, alpha cells do not lose their primary hormonal identity under metabolic stress.
-
-*Conclusion*
+<br>
+(1) GCG (Glucagon) response<br>
+Treated population -> GCG dot remains remarkably large and dark. This confirms that unlike beta cells, alpha cells do not lose their primary hormonal identity under metabolic stress.<br>
+<br>
+*Conclusion*<br>
 Alpha cell response show resilience to metabolic stress
 
-(2) EHMT1/2 Upregulation
+(2) EHMT1/2 Upregulation<br>
 Just like  beta cells,  alpha cells also show a dramatic increase in EHMT1 and EHMT2 expression. This proves that the epigenetic "stress response" is happening across all endocrine cells, but the outcome is different: it disables beta cells while alpha cells stay stable.
 
-**Final conclussion**
+**Final conclussion**<br>
 Analysing this data, following conclussions can be made about pancreatic cells under metabolic stress:<br>
  - Beta Cell Dysregulation -> Not just a loss of cells, but a loss of identity (lower INS)<br>
  - Exocrine Metaplasia -> Evidence of Acinar cells attempting to survive by adopting Ductal-like progenitor markers (SOX9, KRT19)<br>
