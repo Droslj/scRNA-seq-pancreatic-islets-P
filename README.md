@@ -162,9 +162,17 @@ Treated population -> GCG dot remains remarkably large and dark. This confirms t
 <br>
 *Conclusion*<br>
 Alpha cell response show resilience to metabolic stress
-
+<br>
 (2) EHMT1/2 Upregulation<br>
 Just like  beta cells,  alpha cells also show a dramatic increase in EHMT1 and EHMT2 expression. This proves that the epigenetic "stress response" is happening across all endocrine cells, but the outcome is different: it disables beta cells while alpha cells stay stable.
+
+### Exocrine cell response to metabolic stress
+
+Figure 10 shows response of exocrine cells to metabolic stress. 
+
+![Metabolic stress](Images/Metabolic_stress_exocrine.png)
+
+**Figure 10: Exocrine cell response**
 
 **Final conclussion**<br>
 Analysing this data, following conclussions can be made about pancreatic cells under metabolic stress:<br>
