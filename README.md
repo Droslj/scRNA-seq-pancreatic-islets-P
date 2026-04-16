@@ -1,6 +1,11 @@
 # Case study: Behaviour of Pancreatic cells exposed to Metabolic stress
 
-This study examined the functional changes of different pancreatic cells under conditions of metabolic stress (overnutrition). I performed complete scRNA cell raw data processing using different platforms and tools. Final functional analysis was performed using scanpy. Samples used for this case study come from the following study [1] 
+Samples used for this case study come from the following study [1] <br>
+
+The contents of this study:  
+ - This study examined the functional changes of different pancreatic cells under conditions of metabolic stress (overnutrition).<br>
+ - I performed complete scRNA cell raw data processing using different platforms and tools.
+ - Final functional analysis was performed using scanpy. 
 
 # Processing flow
 
@@ -12,14 +17,14 @@ Complete processing flow [*] was divided into four stages and is depicted in the
 
 ## Part I - Preprocessing
 
-Part I included preprocessing of scRNA-seq reads and matrix creation (Galaxy WF). Following steps were performed in the galaxy environment (usegalaxy.eu):  
+Part I included preprocessing of scRNA-seq reads and matrix creation (Galaxy WF). <br>Following steps were performed in the galaxy environment (usegalaxy.eu):  
  (1) Mapping (RNAstar solo)  
  (2) Utility for handling of SC input data (DropletUtils)  
  (3) AD object creation.  
 
 ## Part II - Integration of annotation and metadata 
 
-Part II of the processing included preprocessing of reference dataset [2] and its use for annotation of query dataset using scanpy ingest. It was performed on Google colab environment (Jupyter notebook w/python core - code can be made available on request) Following steps were performed:  
+Part II of the processing included preprocessing of reference dataset [2] and its use for annotation of query dataset using scanpy ingest. It was performed on Google colab environment (Jupyter notebook w/python core - code can be made available on request). <br>Following steps were performed:  
  (1) Load and preprocess the reference dataset  
  (2) Import query dataset from google drive  
  (3) Update gene annotation for query dataset  
@@ -31,7 +36,7 @@ Part II of the processing included preprocessing of reference dataset [2] and it
 
 ## Part III - single cell object Processing pipeline
 
-Part III of the processing included downstream processing pipeline for SC (scanpy standard flow). It was performed on Google colab environment (Jupyter notebook w/python core - code can be made available on request). Following steps were performed:  
+Part III of the processing included downstream processing pipeline for SC (scanpy standard flow). It was performed on Google colab environment (Jupyter notebook w/python core - code can be made available on request). <br>Following steps were performed:  
  (1) Load AD object from Galaxy  
  (2) Filter out reads containing genes that are not of interest (Mitochondrial, ribosomal, hemoglobin genes, pseudogenes etc.)  
  (3) Filter cells based on quality  
@@ -52,7 +57,7 @@ Part III of the processing included downstream processing pipeline for SC (scanp
 
 ## Part IV - Functional analysis
 
-Part IV of the processing included downstream Functional analysis of the obtained (**) results. Following analysis was performed:  
+Part IV of the processing included downstream Functional analysis of the obtained (**) results. <br>Following analysis was performed:  
  (1) Conversion of the source .rds file into h5ad format (sceasy convert - usegalaxy.eu)  
  (2) Inspection, clean up and QC of the final adata object  
  (3) Single cell object processing w/scanpy  
