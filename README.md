@@ -66,7 +66,7 @@ Part IV of the processing included downstream Functional analysis of the obtaine
  (7) Batch detection (see Figure 2) and removal (see Figure 3)
  (8) Functional analysis - see following section.
 
- # Biological Analysis of the Results 
+# Biological Interpretation of the Results 
 
 Final part of the analysis was interpreting obtained results in the light of metabolic stress conditions to which the cells were exposed. After processing steps (see Part IV, steps (1) - (6), plotting clusters of cell families in the data matrix revealed batch effect (see Figure 2).
 
@@ -105,6 +105,12 @@ The UMAP plot reveals that they are indeed near the alpha cluster, but they main
 ![UMAP](Images/Ghrelin.png)
 
 **Figure 6: UMAP plot of Ghrelin**
+
+**Comment**
+
+The UMAP plot reveals that secretioin of Ghrelin is most intense in the vicinity of epsilon cell cluster.
+
+
 
 References: 
  [1] Single-cell RNA Sequencing Uncovers Molecular Mechanisms of Human Pancreatic Islet Dysfunction Under Overnutrition Metabolic Stress (human) 
