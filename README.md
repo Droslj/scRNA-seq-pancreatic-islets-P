@@ -168,13 +168,24 @@ Just like  beta cells,  alpha cells also show a dramatic increase in EHMT1 and E
 
 ### Exocrine cell response to metabolic stress
 
-Figure 10 shows response of exocrine cells to metabolic stress. 
+I have examined response of exocrine cells (acinar - Figure 10, ductal - Figure 11, and delta cells - Figure 12) to metabolic stress. 
 
-![Metabolic stress](Images/Metabolic_stress_exocrine.png)
+![Metabolic stress](Images/Metabolic_stress_acinar.png)
 
-**Figure 10: Exocrine cell response**
+**Figure 10: Exocrine cell response - Acinar cells**
 
-**Final conclussion**<br>
+![Metabolic stress](Images/Metabolic_stress_ductal.png)
+
+**Figure 11: Exocrine cell response - Ductal cells**
+
+![Metabolic stress](Images/Metabolic_stress_delta.png)
+
+**Figure 12: Exocrine cell response - Delta cells**
+
+
+
+# Final conclussion
+<br>
 Analysing this data, following conclussions can be made about pancreatic cells under metabolic stress:<br>
  - Beta Cell Dysregulation -> Not just a loss of cells, but a loss of identity (lower INS)<br>
  - Exocrine Metaplasia -> Evidence of Acinar cells attempting to survive by adopting Ductal-like progenitor markers (SOX9, KRT19)<br>
