@@ -118,10 +118,10 @@ The UMAP plot reveals that secretion of Ghrelin is most intense in the vicinity 
 ## Metabolic stress
 
 Figure 7 shows response to metabolic stress of cells under test in a dotplot. Following markers were used<br>
-GCG -> most significant product of alpha cells
-INS -> most significant product of beta cells 
-EHMT1, EHMT2 -> Epigenetic modulators driving the remodeling of gene regulatory network under stress 
-GHRL -> most significant product of epsilon cells
+ GCG -> most significant product of alpha cells
+ INS -> most significant product of beta cells 
+ EHMT1, EHMT2 -> Epigenetic modulators driving the remodeling of gene regulatory network under stress 
+ GHRL -> most significant product of epsilon cells
 
 ![Metabolic stress](Images/Islet_stress_response.png)
 
@@ -137,11 +137,22 @@ In order to make more distinction in the endocrine department, I created separat
 
 **Figure 8: Alpha cell response**
 
+**Comment**
+<br>
+(1) GCG (Glucagon) response<br>
+Treated population -> GCG dot remains remarkably large and dark. This confirms that unlike beta cells, alpha cells do not lose their primary hormonal identity under metabolic stress.<br>
+<br>
+*Conclusion*<br>
+Alpha cell response show resilience to metabolic stress
+<br>
+(2) EHMT1/2 Upregulation<br>
+Just like  beta cells,  alpha cells also show a dramatic increase in EHMT1 and EHMT2 expression. This proves that the epigenetic "stress response" is happening across all endocrine cells, but the outcome is different: it disables beta cells while alpha cells stay stable.
+
 ![Metabolic stress](Images/Metabolic_stress_beta.png)
 
 **Figure 9: Beta cell response**
 
-**Beta cells**
+**Comment**
 <br>
 (1) INS (Insulin) response<br>
 Control population -> shows as a healthy state where almost 100% of beta cells are pumping out high levels of Insulin<br>
@@ -155,16 +166,6 @@ This shows direct evidence of beta cell dysfunction.
 *Conclusion*<br> 
 Metabolic stress triggers epigenetic regulators (G9a and GLP), which then act as brakes on the islet's functional genes like Insulin.
 
-**Alpha cells**
-<br>
-(1) GCG (Glucagon) response<br>
-Treated population -> GCG dot remains remarkably large and dark. This confirms that unlike beta cells, alpha cells do not lose their primary hormonal identity under metabolic stress.<br>
-<br>
-*Conclusion*<br>
-Alpha cell response show resilience to metabolic stress
-<br>
-(2) EHMT1/2 Upregulation<br>
-Just like  beta cells,  alpha cells also show a dramatic increase in EHMT1 and EHMT2 expression. This proves that the epigenetic "stress response" is happening across all endocrine cells, but the outcome is different: it disables beta cells while alpha cells stay stable.
 
 ### Exocrine cell response to metabolic stress
 
@@ -175,14 +176,14 @@ I have examined response of exocrine cells (acinar - Figure 10, ductal - Figure 
 **Figure 10: Exocrine cell response - Acinar cells**
 
 **Comment**
-Metabolic shock<br>
+(1) Metabolic shock<br>
 Under treatment condition, secretion of digestive proteases PRSS1 and CPB1 increases significantly. In the control, these dots are faint/pale.<br>
 This is a sign of massive metabolic shock — the cells are reacting by over-producing, potentially leading to self-digestion.<br>
 <br>
-Epigenetic upregulation<br>
-Production of EHMT1 goes up with the enzymes, which indicates shift in epigenetic activity as a consequence of metabolic shock.
-
-Metaplasia (ADM)
+(2) Epigenetic upregulation<br>
+Production of EHMT1 goes up with the enzymes, which indicates shift in epigenetic activity as a consequence of metabolic shock.<br>
+<br>
+(3) Metaplasia (ADM) <br>
 In a state of metabolic shock, acinar cell are expected to change their identity to ductal, but the dotplot reveals that SOX9 (ductal marker) actually decreases.<br> 
 This refutes the standard "Identity Shift" (Metaplasia) theory for this specific data. 
 
@@ -194,32 +195,29 @@ Conclusion -> Acinar cells are failing, but they are not successfully transformi
 **Figure 11: Exocrine cell response - Ductal cells**
 
 **Comment**
-Identity loss<br>
-KRT19 and CFTR (ductal markers) and SOX9 (ductal identity and progenitor status) are reduced, which indicates, that Ductal cells appear to be losing functionally and identities.  
-  
+(1) Identity loss<br>
+KRT19 and CFTR (ductal markers) and SOX9 (ductal identity and progenitor status) are reduced, which indicates, that Ductal cells appear to be losing functionally and identities.<br>  
+<br>
 Epigenetic upregulation<br>
-Similar to Acinar cell, production of EHMT1 goes up with the enzymes, which indicates shift in epigenetic activity as a consequence of metabolic shock.  
-
+Similar to Acinar cell, production of EHMT1 goes up with the enzymes, which indicates shift in epigenetic activity as a consequence of metabolic shock.<br>  
+<br>
 ![Metabolic stress](Images/Metabolic_stress_delta.png)
 
-**Figure 12: Exocrine cell response - Delta cells**
+**Figure 12: Exocrine cell response - Delta cells** <br>
 
 **Comment**
-Epigenetic downregulation  
+(1) Epigenetic downregulation<br>
 Since EHMT1 is not regulated in the same way in all affected cells, it can not be directly related to metabolic stress   
-  
-Somatostatin (SST)
-SST expression increases (becomes darker/larger) in the Treated group, HHEX (the Delta cell master regulator) also increases. In a typical diabetic model, Delta cells are expected to fail. 
-By ramping up  SST, these cells are likely trying to shut down the Alpha and Beta cells to protect them from the metabolic stress (hyper-secretion exhaustion).
-
+<br>
+Somatostatin (SST)<br>
+SST expression increases (becomes darker/larger) in the Treated group, HHEX (the Delta cell master regulator) also increases. In a typical diabetic model, Delta cells are expected to fail.<br>
+By ramping up  SST, these cells are likely trying to shut down the Alpha and Beta cells to protect them from the metabolic stress (hyper-secretion exhaustion).<br>
+<br>
 
 # Final conclussion
 <br>
-Analysing this data, following conclussions can be made about pancreatic cells under metabolic stress:<br>
- - Beta Cell Dysregulation -> Not just a loss of cells, but a loss of identity (lower INS)<br>
- - Exocrine Metaplasia -> Evidence of Acinar cells attempting to survive by adopting Ductal-like progenitor markers (SOX9, KRT19)<br>
- - Epigenetic Divergence -> The upregulation of EHMT1/2 specifically in the hormone-producing and digestive cells, but not in the supporting vasculature (Endothelial) <br>
- - Systemic Stasis -> A lack of active pro-inflammatory signaling in the immune compartment, pointing toward direct metabolic toxicity rather than immune-mediated damage.<br>
+The high concentration to which the cells were exposed shows that they are overstressed and probably dying of lipo-gluco toxicity. 
+This show that limitation of the model that was used for this study -> transcriptomic signature of acute metabolic poisoning, not necessarily the signature of chronic Type 2 Diabetes
 
 References:  
  [1] Single-cell RNA Sequencing Uncovers Molecular Mechanisms of Human Pancreatic Islet Dysfunction Under Overnutrition Metabolic Stress (human)  
