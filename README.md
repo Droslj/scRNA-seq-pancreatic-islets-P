@@ -4,7 +4,7 @@ Samples used for this case study come from the following study [1] <br>
 
 The contents of this study:  
  - This study examined the functional changes of different pancreatic cells under conditions of metabolic stress (overnutrition).<br>
- - I performed complete scRNA cell raw data processing using different platforms and tools.
+ - I performed complete scRNA cell raw data processing using different platforms and tools
  - Final functional analysis was performed using scanpy. 
 
 # Processing flow
@@ -174,14 +174,43 @@ I have examined response of exocrine cells (acinar - Figure 10, ductal - Figure 
 
 **Figure 10: Exocrine cell response - Acinar cells**
 
+**Comment**
+Metabolic shock<br>
+Under treatment condition, secretion of digestive proteases PRSS1 and CPB1 increases significantly. In the control, these dots are faint/pale.<br>
+This is a sign of massive metabolic shock — the cells are reacting by over-producing, potentially leading to self-digestion.<br>
+<br>
+Epigenetic upregulation<br>
+Production of EHMT1 goes up with the enzymes, which indicates shift in epigenetic activity as a consequence of metabolic shock.
+
+Metaplasia (ADM)
+In a state of metabolic shock, acinar cell are expected to change their identity to ductal, but the dotplot reveals that SOX9 (ductal marker) actually decreases.<br> 
+This refutes the standard "Identity Shift" (Metaplasia) theory for this specific data. 
+
+Conclusion -> Acinar cells are failing, but they are not successfully transforming.
+
+
 ![Metabolic stress](Images/Metabolic_stress_ductal.png)
 
 **Figure 11: Exocrine cell response - Ductal cells**
+
+**Comment**
+Identity loss<br>
+KRT19 and CFTR (ductal markers) and SOX9 (ductal identity and progenitor status) are reduced, which indicates, that Ductal cells appear to be losing functionally and identities.  
+  
+Epigenetic upregulation<br>
+Similar to Acinar cell, production of EHMT1 goes up with the enzymes, which indicates shift in epigenetic activity as a consequence of metabolic shock.  
 
 ![Metabolic stress](Images/Metabolic_stress_delta.png)
 
 **Figure 12: Exocrine cell response - Delta cells**
 
+**Comment**
+Epigenetic downregulation  
+Since EHMT1 is not regulated in the same way in all affected cells, it can not be directly related to metabolic stress   
+  
+Somatostatin (SST)
+SST expression increases (becomes darker/larger) in the Treated group, HHEX (the Delta cell master regulator) also increases. In a typical diabetic model, Delta cells are expected to fail. 
+By ramping up  SST, these cells are likely trying to shut down the Alpha and Beta cells to protect them from the metabolic stress (hyper-secretion exhaustion).
 
 
 # Final conclussion
