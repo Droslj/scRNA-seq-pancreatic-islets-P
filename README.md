@@ -117,7 +117,7 @@ The UMAP plot reveals that secretion of Ghrelin is most intense in the vicinity 
 
 ## Metabolic stress
 
-Figure 7 shows response to metabolic stress of cells under test in a dotplot. Following markers were used<br>
+Figure 7 shows response to metabolic stress of cells under test in a dotplot. Following markers were used:<br>
  GCG -> most significant product of alpha cells<br>
  INS -> most significant product of beta cells<br> 
  EHMT1, EHMT2 -> Epigenetic modulators driving the remodeling of gene regulatory network under stress<br> 
@@ -142,11 +142,11 @@ In order to make more distinction in the endocrine department, I created separat
 (1) GCG (Glucagon) response<br>
 Treated population -> GCG dot remains remarkably large and dark. This confirms that unlike beta cells, alpha cells do not lose their primary hormonal identity under metabolic stress.<br>
 <br>
-*Conclusion*<br>
-Alpha cell response show resilience to metabolic stress
+*Possible conclusion*<br>
+Alpha cell response show resilience to metabolic stress<br>
 <br>
 (2) EHMT1/2 Upregulation<br>
-Just like  beta cells,  alpha cells also show a dramatic increase in EHMT1 and EHMT2 expression. This proves that the epigenetic "stress response" is happening across all endocrine cells, but the outcome is different: it disables beta cells while alpha cells stay stable.
+Just like  beta cells,  alpha cells also show a dramatic increase in EHMT1 and EHMT2 expression. This proves that the epigenetic "stress response" is happening across all endocrine cells, but the outcome is different: it disables beta cells while alpha cells stay stable.<br>
 
 ![Metabolic stress](Images/Metabolic_stress_beta.png)
 
@@ -157,16 +157,15 @@ Just like  beta cells,  alpha cells also show a dramatic increase in EHMT1 and E
 (1) INS (Insulin) response<br>
 Control population -> shows as a healthy state where almost 100% of beta cells are pumping out high levels of Insulin<br>
 Treated population -> fewer cells expressing INS, the average expression per cell has dropped.<br> 
-
-*Conclusion*<br>
-This shows direct evidence of beta cell dysfunction.
+<br>
+*Possible Conclusion*<br>
+This shows direct evidence of beta cell dysfunction.<br>
 <br>
 (2) Regulatory Flip -> Epigenetic regulators (EHMT1 and EHMT2), almost undetectable under normal conditions, exhibit significant increase in treated cell population.<br> 
 <br>
 *Conclusion*<br> 
-Metabolic stress triggers epigenetic regulators (G9a and GLP), which then act as brakes on the islet's functional genes like Insulin.
-
-
+Metabolic stress triggers epigenetic regulators (G9a and GLP), which then act as brakes on the islet's functional genes like Insulin.<br>
+<br>
 ### Exocrine cell response to metabolic stress
 
 I have examined response of exocrine cells (acinar - Figure 10, ductal - Figure 11, and delta cells - Figure 12) to metabolic stress. 
@@ -187,8 +186,8 @@ Production of EHMT1 goes up with the enzymes, which indicates shift in epigeneti
 In a state of metabolic shock, acinar cell are expected to change their identity to ductal, but the dotplot reveals that SOX9 (ductal marker) actually decreases.<br> 
 This refutes the standard "Identity Shift" (Metaplasia) theory for this specific data. 
 
-Conclusion -> Acinar cells are failing, but they are not successfully transforming.
-
+*Possible Conclusion*<br>
+Acinar cells are failing, but they are not successfully transforming.<br>
 
 ![Metabolic stress](Images/Metabolic_stress_ductal.png)
 
@@ -216,13 +215,13 @@ By ramping up  SST, these cells are likely trying to shut down the Alpha and Bet
 
 # Final conclussion
 <br>
-The high concentration to which the cells were exposed shows that they are overstressed and probably dying of lipo-gluco toxicity. 
-This show that limitation of the model that was used for this study -> transcriptomic signature of acute metabolic poisoning, not necessarily the signature of chronic Type 2 Diabetes
-
-References:  
- [1] Single-cell RNA Sequencing Uncovers Molecular Mechanisms of Human Pancreatic Islet Dysfunction Under Overnutrition Metabolic Stress (human)  
- [2] Tabula sapiens - pancreas.h5ad  
-
-Notes:  
- (*) First three parts of the analysis were performed using a subset of full data available on the NCBI.  
+The high concentration to which the cells were exposed shows that they are overstressed and probably dying of lipo-gluco toxicity. <br>
+This show that limitation of the model that was used for this study -> Could indicate transcriptomic signature of acute metabolic poisoning, not necessarily the signature of chronic Type 2 Diabetes.<br>
+<br>
+References:<br>  
+ [1] Single-cell RNA Sequencing Uncovers Molecular Mechanisms of Human Pancreatic Islet Dysfunction Under Overnutrition Metabolic Stress (human)  <br>
+ [2] Tabula sapiens - pancreas.h5ad  <br>
+<br>
+Notes:<br>  
+ (*) First three parts of the analysis were performed using a subset of full data available on the NCBI.  <br>
  (**) Part IV - the Functional analysis was performed on the raw data set provided by the authors of the study (section Supplementary file). The .rds file was first converted to h5ad file format in the Galaxy platform and then imported into pyhton environment. Functional analysis was performed using this file, not the file obtained in the Parts I-III 
