@@ -163,17 +163,17 @@ This shows direct evidence of beta cell dysfunction.<br>
 <br>
 (2) Regulatory Flip -> Epigenetic regulators (EHMT1 and EHMT2), almost undetectable under normal conditions, exhibit significant increase in treated cell population.<br> 
 <br>
-*Conclusion*<br> 
+*Possible Conclusion*<br> 
 Metabolic stress triggers epigenetic regulators (G9a and GLP), which then act as brakes on the islet's functional genes like Insulin.<br>
 <br>
 ### Exocrine cell response to metabolic stress
 
-I have examined response of exocrine cells (acinar - Figure 10, ductal - Figure 11, and delta cells - Figure 12) to metabolic stress. 
+I have examined response of exocrine cells (acinar - Figure 10, ductal - Figure 11, and delta cells - Figure 12) to metabolic stress. <br>
 
 ![Metabolic stress](Images/Metabolic_stress_acinar.png)
 
 **Figure 10: Exocrine cell response - Acinar cells**
-
+<br>
 **Comment**
 (1) Metabolic shock<br>
 Under treatment condition, secretion of digestive proteases PRSS1 and CPB1 increases significantly. In the control, these dots are faint/pale.<br>
@@ -199,6 +199,7 @@ KRT19 and CFTR (ductal markers) and SOX9 (ductal identity and progenitor status)
 <br>
 Epigenetic upregulation<br>
 Similar to Acinar cell, production of EHMT1 goes up with the enzymes, which indicates shift in epigenetic activity as a consequence of metabolic shock.<br>  
+
 <br>
 ![Metabolic stress](Images/Metabolic_stress_delta.png)
 
