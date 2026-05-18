@@ -204,7 +204,7 @@ Epigenetic upregulation<br>
 Similar to Acinar cell, production of EHMT1 goes up with the enzymes, which indicates shift in epigenetic activity as a consequence of metabolic shock.<br>  
 
 <br>
-![Metabolic stress](Images/Metabolic_stress_delta.png)
+![Metabolic stress](Images/Metabolic_stress_delta.png) 
 
 **Figure 12: Exocrine cell response - Delta cells** <br>
 
