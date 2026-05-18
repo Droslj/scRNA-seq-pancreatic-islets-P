@@ -7,6 +7,9 @@ The contents of this study:
  - I performed complete scRNA cell raw data processing using different platforms and tools
  - Final functional analysis was performed using scanpy. 
 
+# Keywords
+Pancreatic islet cells, Metabolic stress, Response to lipo-glucotoxicity, Endocrine response to overnutrition, Exocrine response to overnutrition 
+
 # Processing flow
 
 Complete processing flow [*] was divided into four stages and is depicted in the Figure 1:
