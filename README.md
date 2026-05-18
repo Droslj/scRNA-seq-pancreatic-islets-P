@@ -127,6 +127,7 @@ Figure 7 shows response to metabolic stress of cells under test in a dotplot. Fo
  - EHMT1, EHMT2 -> Epigenetic modulators driving the remodeling of gene regulatory network under stress<br> 
  - GHRL -> most significant product of epsilon cells.<br>
 <br>
+
 ![Metabolic stress](Images/Islet_stress_response.png)
 
 **Figure 7: Metabolic stress response of pancreatic islets**
@@ -159,11 +160,11 @@ Just like  beta cells,  alpha cells also show a dramatic increase in EHMT1 and E
 **Comment**
 <br>
 (1) INS (Insulin) response<br>
-Control population -> shows as a healthy state where almost 100% of beta cells are pumping out high levels of Insulin<br>
-Treated population -> fewer cells expressing INS, the average expression per cell has dropped.<br> 
+Control population -> shows a healthy state (almost 100% of beta cells are producing Insulin)<br>
+Treated population -> the average expression of Insulin per cell has dropped.<br> 
 <br>
 *Possible Conclusion*<br>
-This shows direct evidence of beta cell dysfunction.<br>
+This shows evidence of beta cell dysfunction.<br>
 <br>
 (2) Regulatory Flip -> Epigenetic regulators (EHMT1 and EHMT2), almost undetectable under normal conditions, exhibit significant increase in treated cell population.<br> 
 <br>
