@@ -199,7 +199,7 @@ Acinar cells are failing, but they are not successfully transforming.<br>
 
 **Figure 11: Exocrine cell response - Ductal cells**
 
-**Comment**
+**Comment**<br>
 (1) Identity loss<br>
 KRT19 and CFTR (ductal markers) and SOX9 (ductal identity and progenitor status) are reduced, which indicates, that Ductal cells appear to be losing functionally and identities.<br>  
 <br>
@@ -211,7 +211,7 @@ Similar to Acinar cell, production of EHMT1 goes up with the enzymes, which indi
 
 **Figure 12: Exocrine cell response - Delta cells** <br>
 
-**Comment**
+**Comment**<br>
 (1) Epigenetic downregulation<br>
 Since EHMT1 is not regulated in the same way in all affected cells, it can not be directly related to metabolic stress   
 <br>
