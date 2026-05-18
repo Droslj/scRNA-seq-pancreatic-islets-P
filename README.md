@@ -8,7 +8,7 @@ The contents of this study:
  - Final functional analysis was performed using scanpy. 
 
 # Keywords
-Pancreatic islet cells, Metabolic stress, Response to lipo-glucotoxicity, Endocrine response to overnutrition, Exocrine response to overnutrition 
+Pancreatic islet cells, Metabolic stress, Response to lipo-glucotoxicity, Endocrine response to overnutrition, Exocrine response to overnutrition, ADM shift
 
 # Processing flow
 
