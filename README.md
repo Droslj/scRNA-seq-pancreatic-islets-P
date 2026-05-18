@@ -307,9 +307,39 @@ If EHMT1/2 were triggered by immune signals (cytokines), there should be high cy
 This may suggest that the epigenetic regulators (EHMT1/2) could be responding directly to the high glucose and lipids (metabolic cues), rather than being instructed by the immune system.<br> 
 <br>
 
+# 4. Programmed Cell Death (Apoptosis) and Cellular Senescence
+
+Since the cells in this assay were exposed to abnormally high concentration of lipids and glucose, not usually found in the organism, it may be possible that they were simply dying from toxic shock.<br>
+This could be revealed by checking the apoptosis/cell senescence markers. Stressed cells could exhibit any of the following markers:<br>
+ (1) Apoptosis
+If the cells are actively dying, Caspase family and pro-apoptotic signals would be expected:
+ - BAX & BAK1: These create holes in the mitochondria to start the death process.
+ - CASP3 & CASP9: The "executioner" enzymes. If these are high, the cell is functionally dead, even if the sequencer still captured its RNA.
+ - FAS: A "death receptor" on the cell surface that triggers apoptosis from external stress.
+
+2. Cell Senescence
+Cell in senescent state stops dividing and starts secreting inflammatory factors:
+ - CDKN1A (p21): A classic marker of cell cycle arrest. If this is high, the cell has "quit" its job.
+ - TP53 (p53): The master guardian that decides if a cell should try to repair itself or commit suicide.
+
+3. ER Stress
+Since the Beta and Acinar cells are secretory "factories," the high sugar/fat causes their protein-folding machinery (the Endoplasmic Reticulum) to collapse:
+ - DDIT3 (CHOP): This is the most critical marker for your case. CHOP is specifically upregulated when ER stress becomes terminal. If DDIT3 is high in your Treated group, it’s a direct sign that the metabolic load has become lethal.
+ - ATF4 & HSPA5 (BiP): These are the "smoke detectors." They go up early in the stress response.
+
+4. Oxidative Damage
+High glucose forces the mitochondria to work so hard they leak "sparks" (Reactive Oxygen Species or ROS):
+ - SOD1 & SOD2: These are the cell's "fire extinguishers." If they are extremely high, it means the cell is fighting a massive internal fire. If they are low in the treated group, the cell’s defenses have already been exhausted.
+
+Response of these markers is shown on Figure 15.
 
 
-# 4. Final conclussion<br>
+
+**Figure 15: Response of Programmed cell death and senescence markers**
+
+
+
+# 5. Final conclussion<br>
 <br>
 In this assay, we have evidence of the following:<br>
  (1) Direct Metabolic Toxicity where high concentration of glucose/lipids directly affects the cells<br>
