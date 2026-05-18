@@ -221,7 +221,13 @@ SST expression increases (becomes darker/larger) in the Treated group, HHEX (the
 By ramping up  SST, these cells are likely trying to shut down the Alpha and Beta cells to protect them from the metabolic stress (hyper-secretion exhaustion).<br>
 <br>
 
+## 2.3 Summary of Islet cell response
 
+Islet cell response types is summarized in the Table 1:
+
+![Metabolic stress](Images/Summary_islet.png) 
+
+**Table 1: Response of different islet cell types** 
 
 # 3. Response of other cells types
 
