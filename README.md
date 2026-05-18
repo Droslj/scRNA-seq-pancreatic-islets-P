@@ -227,15 +227,15 @@ By ramping up  SST, these cells are likely trying to shut down the Alpha and Bet
 
 Since the cell matrix contains other cell types as well, it is necessary to inspect how they responded to conditions of metabolic stress. I examined the response of two types of cells<br>
  - Endothelial cells --> In conditions of overnutritions, vessel stress may be expected<br>
- - Immune cells --> In a state of glucolipotoxicity (metabolic stress), immune release cytokines, that (1) directly force Beta cells to stop making insulin and (2) push Acinar cells toward that ductal (ADM) identity crisis<br>
+ - Immune cells --> In a state of glucolipotoxicity (metabolic stress), immune cells release cytokines, that (1) directly force Beta cells to stop making insulin and (2) push Acinar cells toward that ductal (ADM) identity crisis<br>
 
 ## 3.1 Response of Endothelial cells
 
 Under conditions of diabetes and metabolic stress, blood vessels often undergo Endothelial Dysfunction. They stop being smooth conduits and start leaking or expressing adhesion molecules that stress the surrounding cells.<br>
 For Investigation of endothelial cells, I used markers for vessel health, structural integrity, and stress:<br>
- (1) Structural/Identity: PECAM1 (CD31) and VWF (Von Willebrand Factor)<br>
- (2) Stress/Dysfunction: ICAM1 and SELE (Selectin E) <br>
- (3) The epigenetic markers EHMT1 and EHMT2.<br>
+ (1) Structural/Identity (PECAM1 (CD31) and VWF (Von Willebrand Factor))<br>
+ (2) Stress/Dysfunction (ICAM1 and SELE (Selectin E)) <br>
+ (3) The epigenetic markers (EHMT1 and EHMT2).<br>
 <br>
 The response of endothelial cell markers is shown on Figure 13:<br>
 
@@ -243,28 +243,17 @@ The response of endothelial cell markers is shown on Figure 13:<br>
 
 **Figure 13: response of endothelial markers**
 
-**Comment**
-
-Endothelial plot compared to your beta plot—the behavior of ICAM1 and VWF is actually quite similar to the behavior of the immune cells you checked earlier.
- (1) The Vessel Collapse
-Usually,  stress/inflammation marker (ICAM1) is exspected to go up in treated vessels. But from the data we can see that this activity (ICAM1 and VWF) is are dark red in the Control and become pale/small in the Treated group.
-Identity marker for endothelial cells (PECAM1) looks larger/darker in the Treated group.
-
-**Possible interpretation:** 
-The endothelial cells aren't showing signs of inflammation; they are losing their functional markers (VWF) while retaining their structural identity (PECAM1).<br> 
-This suggests that high glucose/fat might be "numbing" the vessels or causing them to shut down their signaling activities.<br>
+**Comment**<br>
+Usually, stress/inflammation marker (ICAM1) is exspected to go up in treated vessels, which is not the case here.<br>
+Identity marker for endothelial cells (PECAM1) looks larger/darker in the Treated group.<br>
+The endothelial cells (1) aren't showing signs of inflammation; (2) they are losing their functional markers (VWF) while (3) retaining their structural identity (PECAM1).<br> 
 <br>
-
- (2) Epigenetic markers (EHMT1/2)
-This is the most critical observation for your "caution" argument:
-In Beta cells, EHMT1 went up significantly in the Treated group. In Endothelial cells, EHMT1 goes down in the Treated group.
+Unlike in Beta cells, where EHMT1 went up significantly in the Treated group, EHMT1 goes down in the Endothelial cells Treated group.
 <br>
 
 **Possible interpretation**<br>
-
 (1) The epigenetic response (EHMT1) <br> 
-Epigenetic response may not be the universal trigger for stress; it was down in the vessels/up in the beta cells.
-This may suggest that epigenetic response is specific to Cell-Types --> The EHMT1/2 mechanism may be exclusive to the endocrine as well as exocrine cells.<br>
+Epigenetic response may be specific to cell types (exocrine, endocrine).<br>
 
 (2) Vessel Resilience<br>
 Blood vessels might be using an entirely different survival strategy, or they might be less susceptive to this specific epigenetic switch.
@@ -273,8 +262,8 @@ Blood vessels might be using an entirely different survival strategy, or they mi
 
 In the state of metabolic stress, immune cells secrete cytokines that modulate the activity of endocrine as well as exocrine cells. <br>
 I looked are the following type of immune response:<br>
-(1) Macrophage Activity --> CD68, CD163 (M2/Resolution), and CD86 (M1/Pro-inflammatory)<br>
-(2) Inflammatory Signals (Cytokines) --> IL1B, TNF, IL6. These are the signals that can cause  stress in  other cells<br>
+(1) Macrophage Activity --> CD68, CD163, and CD86<br>
+(2) Inflammatory Signals (Cytokines) --> IL1B, TNF, IL6<br>
 (3) Master regulator of inflammation --> NFKB1.<br>
 <br>
 The response of these markers is plotted on the Figure 14.
@@ -289,22 +278,21 @@ Immune Cell Activation signals (CD68, CD86, IL1B, and NFKB1) are significantly h
 This may suggest that the Treated group has less immune activity than the Control group.<br>
 <br>
 **Possible interpretation**<br>
-This behavior is counter intuitive, since under conditions of metabolic stress model, the pro-inflammatory response is expect to increase. This may suggest Immune Exhaustion/Death due to high concentration (25 mM) of glucose and palmitic acid may have been be too toxic for immune cells.<br>
-<br>
+This behavior is counter intuitive, since under conditions of metabolic stress model, the pro-inflammatory response is expected to increase. <br>
 
 **Epigenetic response**<br> 
 If EHMT1/2 were triggered by immune signals (cytokines), there should be high cytokine activity in the Treated group. Instead, we see the following behavior:
- (1) Low Immune Signals in Treated  cells
+ (1) Low Immune Signals in Treated cells
  (2) High level of epigenetic response with EHMT1/2 in Treated cells 
  (3) High Stress (ADM/Beta failure) in Treated cells.<br>
 <br>
-This may suggest that the epigenetic regulators (EHMT1/2) could be responding directly to the high glucose and lipids (metabolic cues), rather than being instructed by the immune system.<br> 
+This may suggest that the epigenetic regulators (EHMT1/2) could be responding directly to the high levels of glucose and lipids, rather than being instructed by the immune system.<br> 
 <br>
 
 # 4. Programmed Cell Death (Apoptosis) and Cellular Senescence
 
 Since the cells in this assay were exposed to abnormally high concentration of lipids and glucose, not usually found in the organism, it may be possible that they were simply dying from toxic shock.<br>
-This could be revealed by checking the apoptosis/cell senescence markers. Stressed cells could exhibit any of the following markers:<br>
+This could be revealed by checking the apoptosis/cell senescence markers. Stressed cells exhibit any of the following markers:<br>
 
  (1) Apoptosis (BAX & BAK1, CASP3 & CASP9, FAS)<br>
  (2) Cell Senescence (CDKN1A (p21), TP53 (p53))<br>
