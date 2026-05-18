@@ -170,6 +170,7 @@ This shows direct evidence of beta cell dysfunction.<br>
 *Possible Conclusion*<br> 
 Metabolic stress triggers epigenetic regulators (G9a and GLP), which then act as brakes on the islet's functional genes like Insulin.<br>
 <br>
+
 ### 2.2.2 Exocrine cell response to metabolic stress
 
 I have examined response of exocrine cells (acinar - Figure 10, ductal - Figure 11, and delta cells - Figure 12) to metabolic stress. <br>
@@ -178,6 +179,7 @@ I have examined response of exocrine cells (acinar - Figure 10, ductal - Figure 
 
 **Figure 10: Exocrine cell response - Acinar cells**
 <br>
+
 **Comment**
 (1) Metabolic shock<br>
 Under treatment condition, secretion of digestive proteases PRSS1 and CPB1 increases significantly. In the control, these dots are faint/pale.<br>
