@@ -217,6 +217,8 @@ Since EHMT1 is not regulated in the same way in all affected cells, it can not b
 <br>
 Somatostatin (SST)<br>
 SST expression increases (becomes darker/larger) in the Treated group, HHEX (the Delta cell master regulator) also increases. In a typical diabetic model, Delta cells are expected to fail.<br>
+
+*Possible conclussion*<br>
 By ramping up  SST, these cells are likely trying to shut down the Alpha and Beta cells to protect them from the metabolic stress (hyper-secretion exhaustion).<br>
 <br>
 
@@ -233,8 +235,8 @@ For Investigation of endothelial cells, I used markers for vessel health, struct
  (1) Structural/Identity: PECAM1 (CD31) and VWF (Von Willebrand Factor)<br>
  (2) Stress/Dysfunction: ICAM1 and SELE (Selectin E) <br>
  (3) The epigenetic markers EHMT1 and EHMT2.<br>
-
-The response of endothelial cell markers is shown on Figure 13:
+<br>
+The response of endothelial cell markers is shown on Figure 13:<br>
 
 ![Metabolic stress](Images/Endothelial_cell_response.png)
 
