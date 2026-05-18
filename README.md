@@ -190,10 +190,9 @@ Production of EHMT1 goes up with the enzymes, which indicates shift in epigeneti
 <br>
 (3) Metaplasia (ADM) <br>
 In a state of metabolic shock, acinar cell are expected to change their identity to ductal, but the dotplot reveals that SOX9 (ductal marker) actually decreases.<br> 
-This refutes the standard "Identity Shift" (Metaplasia) theory for this specific data. 
 
 *Possible Conclusion*<br>
-Acinar cells are failing, but they are not successfully transforming.<br>
+Identity Shift (Metaplasia) theory isn't evident for this specific data.<br>
 
 ![Metabolic stress](Images/Metabolic_stress_ductal.png)
 
@@ -221,6 +220,8 @@ SST expression increases (becomes darker/larger) in the Treated group, HHEX (the
 *Possible conclussion*<br>
 By ramping up  SST, these cells are likely trying to shut down the Alpha and Beta cells to protect them from the metabolic stress (hyper-secretion exhaustion).<br>
 <br>
+
+
 
 # 3. Response of other cells types
 
@@ -300,7 +301,9 @@ If EHMT1/2 were triggered by immune signals (cytokines), there should be high cy
 This may suggest that the epigenetic regulators (EHMT1/2) could be responding directly to the high glucose and lipids (metabolic cues), rather than being instructed by the immune system.<br> 
 <br>
 
-# Final conclussion<br>
+
+
+# 4. Final conclussion<br>
 <br>
 In this assay, we have evidence of the following:<br>
  (1) Direct Metabolic Toxicity where high concentration of glucose/lipids directly affects the cells<br>
