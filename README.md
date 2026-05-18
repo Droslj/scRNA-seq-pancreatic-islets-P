@@ -312,17 +312,27 @@ This may suggest that the epigenetic regulators (EHMT1/2) could be responding di
 Since the cells in this assay were exposed to abnormally high concentration of lipids and glucose, not usually found in the organism, it may be possible that they were simply dying from toxic shock.<br>
 This could be revealed by checking the apoptosis/cell senescence markers. Stressed cells could exhibit any of the following markers:<br>
 
- (1) Apoptosis (BAX & BAK1, CASP3 & CASP9, FAS)
- (2) Cell Senescence (CDKN1A (p21), TP53 (p53))
- (3) ER Stress (DDIT3 (CHOP), ATF4 & HSPA5 (BiP))
- (4) Oxidative Damage (SOD1 & SOD2)<br>
+ (1) Apoptosis (BAX & BAK1, CASP3 & CASP9, FAS)<br>
+ (2) Cell Senescence (CDKN1A (p21), TP53 (p53))<br>
+ (3) ER Stress (DDIT3 (CHOP), ATF4 & HSPA5 (BiP))<nr>
+ (4) Oxidative Damage (SOD1 & SOD2).<br>
 
  Response of these markers is shown on Figure 15.
 
+![Metabolic stress](Images/CD_markers_combined.png)
 
+**Figure 15: Response of Programmed cell death and senescence markers (different cell types)**
 
-**Figure 15: Response of Programmed cell death and senescence markers**
+**Comment**<br>
 
+(1) Beta/PP Cells
+Endocrine cells seem to be undergoing ER stress, which could also explain why hormone production (Insulin) drops (see Figure 9).<br>
+
+(2) Acinar/Ductal<br>
+Exocrine cells are undergoing oxidative dammage, which could be the consequence of toxic environment created by overnutrition.<br>
+
+(3) Immune/Endothelial<br>
+These cells semm to be undergoing both ER stress and experiencing oxidative damage.<br>
 
 
 # 5. Final conclussion<br>
