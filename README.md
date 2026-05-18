@@ -319,10 +319,10 @@ These cells semm to be undergoing both ER stress and experiencing oxidative dama
 
 # 5. Final conclussion<br>
 <br>
-In this assay, we have evidence of the following:<br>
- (1) Direct Metabolic Toxicity where high concentration of glucose/lipids directly affects the cells<br>
- (2) Intrinsic Epigenetic Wiring manifested by EHMT1/2 response<br>
- (3) Paracrine Signaling with stress signaling coming from the dying Exocrine cells (Acinar/Ductal) rather than the immune cells.<br>
+In this study, we have the evidence of the following:<br>
+ (1) Direct Metabolic Toxicity --> high concentration of glucose/lipids affects the cells<br>
+ (2) Epigenetic activity --> manifested by EHMT1/2 response<br>
+ (3) Paracrine Signaling --> stress signaling coming from the dying Exocrine cells (Acinar/Ductal) rather than the immune cells.<br>
 <br>
 
 The high concentration to which the cells were exposed shows that they are overstressed and probably dying of lipo-gluco toxicity. <br>
