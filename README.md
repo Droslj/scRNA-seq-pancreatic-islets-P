@@ -180,7 +180,7 @@ I have examined response of exocrine cells (acinar - Figure 10, ductal - Figure 
 **Figure 10: Exocrine cell response - Acinar cells**
 <br>
 
-**Comment**
+**Comment**<br>
 (1) Metabolic shock<br>
 Under treatment condition, secretion of digestive proteases PRSS1 and CPB1 increases significantly. In the control, these dots are faint/pale.<br>
 This is a sign of massive metabolic shock — the cells are reacting by over-producing, potentially leading to self-digestion.<br>
