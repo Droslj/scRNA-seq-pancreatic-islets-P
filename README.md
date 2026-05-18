@@ -1,4 +1,5 @@
-# Case study: Behaviour of Pancreatic cells exposed to Metabolic stress
+# Case study
+**Behaviour of Pancreatic cells exposed to Metabolic stress**
 
 Samples used for this case study come from the following study [1] <br>
 
@@ -10,7 +11,7 @@ The contents of this study:
 # Keywords
 Pancreatic islet cells, Metabolic stress, Response to lipo-glucotoxicity, Endocrine response to overnutrition, Exocrine response to overnutrition, ADM shift
 
-# Processing flow
+# 1. Processing flow
 
 Complete processing flow [*] was divided into four stages and is depicted in the Figure 1:
 
@@ -18,14 +19,14 @@ Complete processing flow [*] was divided into four stages and is depicted in the
 
 **Figure 1: Complete Processing flow**
 
-## Part I - Preprocessing
+## 1.1 Part I - Preprocessing
 
 Part I included preprocessing of scRNA-seq reads and matrix creation (Galaxy WF). <br>Following steps were performed in the galaxy environment (usegalaxy.eu):  
  (1) Mapping (RNAstar solo)  
  (2) Utility for handling of SC input data (DropletUtils)  
  (3) AD object creation.  
 
-## Part II - Integration of annotation and metadata 
+## 1.2 Part II - Integration of annotation and metadata 
 
 Part II of the processing included preprocessing of reference dataset [2] and its use for annotation of query dataset using scanpy ingest. It was performed on Google colab environment (Jupyter notebook w/python core - code can be made available on request). <br>Following steps were performed:  
  (1) Load and preprocess the reference dataset  
@@ -37,7 +38,7 @@ Part II of the processing included preprocessing of reference dataset [2] and it
  (7) Intersect genes between two datasets  
  (8) Map onto a reference dataset using ingest.  
 
-## Part III - single cell object Processing pipeline
+## 1.3 Part III - single cell object Processing pipeline
 
 Part III of the processing included downstream processing pipeline for SC (scanpy standard flow). It was performed on Google colab environment (Jupyter notebook w/python core - code can be made available on request). <br>Following steps were performed:  
  (1) Load AD object from Galaxy  
@@ -58,7 +59,7 @@ Part III of the processing included downstream processing pipeline for SC (scanp
  (16) Automatic cell type annotation (celltypist)  
  (17) Trajectory inference.  
 
-## Part IV - Functional analysis
+## 1.4 Part IV - Functional analysis
 
 Part IV of the processing included downstream Functional analysis of the obtained (**) results. <br>Following analysis was performed:  
  (1) Conversion of the source .rds file into h5ad format (sceasy convert - usegalaxy.eu)  
@@ -70,11 +71,11 @@ Part IV of the processing included downstream Functional analysis of the obtaine
  (7) Batch detection (see Figure 2) and removal (see Figure 3)  
  (8) Functional analysis - see following section.  
 
-# Biological Interpretation of the Results 
+# 2. Biological Interpretation of the Results 
 
 Final part of the analysis was interpreting obtained results in the light of metabolic stress conditions to which the cells were exposed.<br>
 
-## Cell identities
+## 2.1 Cell identities
 
 After processing steps (see Part IV, steps (1) - (6), plotting clusters of cell families in the data matrix revealed batch effect (see Figure 2).
 
@@ -118,7 +119,7 @@ The UMAP plot reveals that they are indeed near the alpha cluster, but they main
 
 The UMAP plot reveals that secretion of Ghrelin is most intense in the vicinity of epsilon cell cluster.
 
-## Metabolic stress
+## 2.2 Metabolic stress
 
 Figure 7 shows response to metabolic stress of cells under test in a dotplot. Following markers were used:<br>
  GCG -> most significant product of alpha cells<br>
@@ -132,7 +133,7 @@ Figure 7 shows response to metabolic stress of cells under test in a dotplot. Fo
 
 This plot provided some detail, but in order to get a more detailed picture, I created separate plot of endocrine and exocrine cell families. 
 
-### Endocrine cell response to metabolic stress
+### 2.2.1 Endocrine cell response to metabolic stress
 
 In order to make more distinction in the endocrine department, I created separate plots for Alpha cells (Figure 8) and Beta cells (Figure 9).
 
@@ -169,7 +170,7 @@ This shows direct evidence of beta cell dysfunction.<br>
 *Possible Conclusion*<br> 
 Metabolic stress triggers epigenetic regulators (G9a and GLP), which then act as brakes on the islet's functional genes like Insulin.<br>
 <br>
-### Exocrine cell response to metabolic stress
+### 2.2.2 Exocrine cell response to metabolic stress
 
 I have examined response of exocrine cells (acinar - Figure 10, ductal - Figure 11, and delta cells - Figure 12) to metabolic stress. <br>
 
@@ -202,8 +203,8 @@ KRT19 and CFTR (ductal markers) and SOX9 (ductal identity and progenitor status)
 <br>
 Epigenetic upregulation<br>
 Similar to Acinar cell, production of EHMT1 goes up with the enzymes, which indicates shift in epigenetic activity as a consequence of metabolic shock.<br>  
-
 <br>
+
 ![Metabolic stress](Images/Metabolic_stress_delta.png) 
 
 **Figure 12: Exocrine cell response - Delta cells** <br>
@@ -217,7 +218,7 @@ SST expression increases (becomes darker/larger) in the Treated group, HHEX (the
 By ramping up  SST, these cells are likely trying to shut down the Alpha and Beta cells to protect them from the metabolic stress (hyper-secretion exhaustion).<br>
 <br>
 
-# Final conclussion
+# 3. Final conclussion
 <br>
 The high concentration to which the cells were exposed shows that they are overstressed and probably dying of lipo-gluco toxicity. <br>
 This show that limitation of the model that was used for this study -> Could indicate transcriptomic signature of acute metabolic poisoning, not necessarily the signature of chronic Type 2 Diabetes.<br>
