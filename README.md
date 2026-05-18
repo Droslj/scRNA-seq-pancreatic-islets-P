@@ -220,7 +220,88 @@ SST expression increases (becomes darker/larger) in the Treated group, HHEX (the
 By ramping up  SST, these cells are likely trying to shut down the Alpha and Beta cells to protect them from the metabolic stress (hyper-secretion exhaustion).<br>
 <br>
 
-# 3. Final conclussion
+# 3. Response of other cells types
+
+Since the cell matrix contains other cell types as well, it is necessary to inspect how they responded to conditions of metabolic stress. I examined the response of two types of cells<br>
+ - Endothelial cells --> In conditions of overnutritions, vessel stress may be expected<br>
+ - Immune cells --> In a state of glucolipotoxicity (metabolic stress), immune release cytokines, that (1) directly force Beta cells to stop making insulin and (2) push Acinar cells toward that ductal (ADM) identity crisis<br>
+
+## 3.1 Response of Endothelial cells
+
+Under conditions of diabetes and metabolic stress, blood vessels often undergo Endothelial Dysfunction. They stop being smooth conduits and start leaking or expressing adhesion molecules that stress the surrounding cells.<br>
+For Investigation of endothelial cells, I used markers for vessel health, structural integrity, and stress:<br>
+ (1) Structural/Identity: PECAM1 (CD31) and VWF (Von Willebrand Factor)<br>
+ (2) Stress/Dysfunction: ICAM1 and SELE (Selectin E) <br>
+ (3) The epigenetic markers EHMT1 and EHMT2.<br>
+
+The response of endothelial cell markers is shown on Figure 13:
+
+![Metabolic stress](Images/Endothelial_cell_response.png)
+
+**Figure 13: response of endothelial markers**
+
+**Comment**
+
+Endothelial plot compared to your beta plot—the behavior of ICAM1 and VWF is actually quite similar to the behavior of the immune cells you checked earlier.
+ (1) The Vessel Collapse
+Usually,  stress/inflammation marker (ICAM1) is exspected to go up in treated vessels. But from the data we can see that this activity (ICAM1 and VWF) is are dark red in the Control and become pale/small in the Treated group.
+Identity marker for endothelial cells (PECAM1) looks larger/darker in the Treated group.
+
+**Possible interpretation:** 
+The endothelial cells aren't showing signs of inflammation; they are losing their functional markers (VWF) while retaining their structural identity (PECAM1).<br> 
+This suggests that high glucose/fat might be "numbing" the vessels or causing them to shut down their signaling activities.<br>
+<br>
+
+ (2) Epigenetic markers (EHMT1/2)
+This is the most critical observation for your "caution" argument:
+In Beta cells, EHMT1 went up significantly in the Treated group. In Endothelial cells, EHMT1 goes down in the Treated group.
+<br>
+
+**Possible interpretation**<br>
+
+(1) The epigenetic response (EHMT1) <br> 
+Epigenetic response may not be the universal trigger for stress; it was down in the vessels/up in the beta cells.
+This may suggest that epigenetic response is specific to Cell-Types --> The EHMT1/2 mechanism may be exclusive to the endocrine as well as exocrine cells.<br>
+
+(2) Vessel Resilience<br>
+Blood vessels might be using an entirely different survival strategy, or they might be less susceptive to this specific epigenetic switch.
+
+## 3.2 Response of Immune cells
+
+In the state of metabolic stress, immune cells secrete cytokines that modulate the activity of endocrine as well as exocrine cells. <br>
+I looked are the following type of immune response:<br>
+(1) Macrophage Activity --> CD68, CD163 (M2/Resolution), and CD86 (M1/Pro-inflammatory)<br>
+(2) Inflammatory Signals (Cytokines) --> IL1B, TNF, IL6. These are the signals that can cause  stress in  other cells<br>
+(3) Master regulator of inflammation --> NFKB1<br>
+(4) The epigenetic markers EHMT1 and EHMT2.<br>
+
+ The response of these markers is plotted on the Figure 14.
+
+![Metabolic stress](Images/Immune_cell_response.png)
+
+ **Figure 14: Response of Immune cells**
+
+**Comment**
+
+Immune Cell Activation signals (CD68, CD86, IL1B, and NFKB1) are significantly higher in the Control than in the Treated group. 
+This may suggest that the Treated group has less immune activity than the Control group.
+
+**Possible interpretation**
+This behavior is counter intuitive, since under conditions of metabolic stress model, the pro-inflammatory response is expect to increase. This may suggest Immune Exhaustion/Death due to high concentration (25 mM) of glucose and palmitic acid may have been be too toxic for immune cells
+
+Epigenetic response 
+If EHMT1/2 were being triggered only by immune signals (cytokines), there should be high cytokine activity in the Treated group. Instead, we see:
+ Low Immune Signals in Treated
+ High EHMT1/2 in Treated
+ High Stress (ADM/Beta failure) in Treated.
+
+This suggests that the epigenetic regulators (EHMT1/2) might be responding directly to the high glucose and lipids (metabolic cues), rather than being instructed by the immune system. 
+
+Direct Metabolic Toxicity: High glucose/lipids directly hitting the cells.
+Intrinsic Epigenetic Wiring: The EHMT1/2 response we saw earlier.
+Paracrine Signals: Stress signals coming from the dying Exocrine cells (Acinar/Ductal) rather than the immune cells.
+
+# Final conclussion
 <br>
 The high concentration to which the cells were exposed shows that they are overstressed and probably dying of lipo-gluco toxicity. <br>
 This show that limitation of the model that was used for this study -> Could indicate transcriptomic signature of acute metabolic poisoning, not necessarily the signature of chronic Type 2 Diabetes.<br>
