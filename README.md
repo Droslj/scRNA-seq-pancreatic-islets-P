@@ -182,8 +182,8 @@ I have examined response of exocrine cells (acinar - Figure 10, ductal - Figure 
 
 **Comment**<br>
 (1) Metabolic shock<br>
-Under treatment condition, secretion of digestive proteases PRSS1 and CPB1 increases significantly. In the control, these dots are faint/pale.<br>
-This is a sign of massive metabolic shock — the cells are reacting by over-producing, potentially leading to self-digestion.<br>
+Under treatment condition, secretion of digestive proteases PRSS1 and CPB1 increases significantly.<br>
+This could indicate metabolic shock --> the cells are reacting by over-producing, potentially leading to self-digestion.<br>
 <br>
 (2) Epigenetic upregulation<br>
 Production of EHMT1 goes up with the enzymes, which indicates shift in epigenetic activity as a consequence of metabolic shock.<br>
@@ -200,7 +200,8 @@ Identity Shift (Metaplasia) theory isn't evident for this specific data.<br>
 
 **Comment**<br>
 (1) Identity loss<br>
-KRT19 and CFTR (ductal markers) and SOX9 (ductal identity and progenitor status) are reduced, which indicates, that Ductal cells appear to be losing functionally and identities.<br>  
+KRT19 and CFTR (ductal markers) are reduced, which indicates, that Ductal cells appear to be losing functionally and identities.<br>  
+
 <br>
 Epigenetic upregulation<br>
 Similar to Acinar cell, production of EHMT1 goes up with the enzymes, which indicates shift in epigenetic activity as a consequence of metabolic shock.<br>  
