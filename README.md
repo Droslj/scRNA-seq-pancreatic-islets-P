@@ -122,16 +122,16 @@ The UMAP plot reveals that secretion of Ghrelin is most intense in the vicinity 
 ## 2.2 Metabolic stress
 
 Figure 7 shows response to metabolic stress of cells under test in a dotplot. Following markers were used:<br>
- GCG -> most significant product of alpha cells<br>
- INS -> most significant product of beta cells<br> 
- EHMT1, EHMT2 -> Epigenetic modulators driving the remodeling of gene regulatory network under stress<br> 
- GHRL -> most significant product of epsilon cells.<br>
+ - GCG -> most significant product of alpha cells<br>
+ - INS -> most significant product of beta cells<br> 
+ - EHMT1, EHMT2 -> Epigenetic modulators driving the remodeling of gene regulatory network under stress<br> 
+ - GHRL -> most significant product of epsilon cells.<br>
 <br>
 ![Metabolic stress](Images/Islet_stress_response.png)
 
 **Figure 7: Metabolic stress response of pancreatic islets**
 
-This plot provided some detail, but in order to get a more detailed picture, I created separate plot of endocrine and exocrine cell families. 
+This plot provided some detail, but in order to get a more detailed picture, I created separate plots for endocrine and exocrine cell families. 
 
 ### 2.2.1 Endocrine cell response to metabolic stress
 
