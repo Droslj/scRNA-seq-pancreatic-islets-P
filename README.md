@@ -273,30 +273,32 @@ I looked are the following type of immune response:<br>
 (1) Macrophage Activity --> CD68, CD163 (M2/Resolution), and CD86 (M1/Pro-inflammatory)<br>
 (2) Inflammatory Signals (Cytokines) --> IL1B, TNF, IL6. These are the signals that can cause  stress in  other cells<br>
 (3) Master regulator of inflammation --> NFKB1.<br>
-
- The response of these markers is plotted on the Figure 14.
+<br>
+The response of these markers is plotted on the Figure 14.
+<br>
 
 ![Metabolic stress](Images/Immune_cell_response.png)
 
  **Figure 14: Response of Immune cells**
 
-**Comment**
+**Comment**<br>
+Immune Cell Activation signals (CD68, CD86, IL1B, and NFKB1) are significantly higher in the Control than in the Treated group. <br>
+This may suggest that the Treated group has less immune activity than the Control group.<br>
+<br>
+**Possible interpretation**<br>
+This behavior is counter intuitive, since under conditions of metabolic stress model, the pro-inflammatory response is expect to increase. This may suggest Immune Exhaustion/Death due to high concentration (25 mM) of glucose and palmitic acid may have been be too toxic for immune cells.<br>
+<br>
 
-Immune Cell Activation signals (CD68, CD86, IL1B, and NFKB1) are significantly higher in the Control than in the Treated group. 
-This may suggest that the Treated group has less immune activity than the Control group.
-
-**Possible interpretation**
-This behavior is counter intuitive, since under conditions of metabolic stress model, the pro-inflammatory response is expect to increase. This may suggest Immune Exhaustion/Death due to high concentration (25 mM) of glucose and palmitic acid may have been be too toxic for immune cells
-
-Epigenetic response 
+**Epigenetic response**<br> 
 If EHMT1/2 were triggered by immune signals (cytokines), there should be high cytokine activity in the Treated group. Instead, we see the following behavior:
  (1) Low Immune Signals in Treated  cells
  (2) High level of epigenetic response with EHMT1/2 in Treated cells 
- (3) High Stress (ADM/Beta failure) in Treated cells.
+ (3) High Stress (ADM/Beta failure) in Treated cells.<br>
+<br>
+This may suggest that the epigenetic regulators (EHMT1/2) could be responding directly to the high glucose and lipids (metabolic cues), rather than being instructed by the immune system.<br> 
+<br>
 
-This may suggest that the epigenetic regulators (EHMT1/2) could be responding directly to the high glucose and lipids (metabolic cues), rather than being instructed by the immune system. 
-
-# Final conclussion
+# Final conclussion<br>
 <br>
 In this assay, we have evidence of the following:<br>
  (1) Direct Metabolic Toxicity where high concentration of glucose/lipids directly affects the cells<br>
@@ -305,9 +307,11 @@ In this assay, we have evidence of the following:<br>
 <br>
 
 The high concentration to which the cells were exposed shows that they are overstressed and probably dying of lipo-gluco toxicity. <br>
-This could indicate the limitation of the model that was used for this study -> Could indicate transcriptomic signature of acute metabolic poisoning, not necessarily the signature of chronic Type 2 Diabetes.<br>
+This could indicate the limitation of the model that was used for this study and could indicate transcriptomic signature of acute metabolic poisoning, not necessarily the signature of chronic Type 2 Diabetes.<br>
 <br>
-References:<br>  
+
+
+**References:**<br>  
  [1] Single-cell RNA Sequencing Uncovers Molecular Mechanisms of Human Pancreatic Islet Dysfunction Under Overnutrition Metabolic Stress (human)  <br>
  [2] Tabula sapiens - pancreas.h5ad  <br>
 <br>
