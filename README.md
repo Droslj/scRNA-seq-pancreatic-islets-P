@@ -166,10 +166,10 @@ Treated population -> the average expression of Insulin per cell has dropped.<br
 *Possible Conclusion*<br>
 This shows evidence of beta cell dysfunction.<br>
 <br>
-(2) Regulatory Flip -> Epigenetic regulators (EHMT1 and EHMT2), almost undetectable under normal conditions, exhibit significant increase in treated cell population.<br> 
+(2) Epigenetic upregulation (EHMT1 and EHMT2) --> significant increase in treated cell population.<br> 
 <br>
 *Possible Conclusion*<br> 
-Metabolic stress triggers epigenetic regulators (G9a and GLP), which then act as brakes on the islet's functional genes like Insulin.<br>
+Metabolic stress triggers epigenetic regulators (G9a and GLP), which then act as brakes on functional genes like Insulin.<br>
 <br>
 
 ### 2.2.2 Exocrine cell response to metabolic stress
@@ -293,7 +293,6 @@ This may suggest that the epigenetic regulators (EHMT1/2) could be responding di
 
 Since the cells in this assay were exposed to abnormally high concentration of lipids and glucose, not usually found in the organism, it may be possible that they were simply dying from toxic shock.<br>
 This could be revealed by checking the apoptosis/cell senescence markers. Stressed cells exhibit any of the following markers:<br>
-
 > (1) Apoptosis (BAX & BAK1, CASP3 & CASP9, FAS)<br>
 > (2) Cell Senescence (CDKN1A (p21), TP53 (p53))<br>
 > (3) ER Stress (DDIT3 (CHOP), ATF4 & HSPA5 (BiP))<nr>
