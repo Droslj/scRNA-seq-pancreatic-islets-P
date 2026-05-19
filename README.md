@@ -22,9 +22,9 @@ Complete processing flow [*] was divided into four stages and is depicted in the
 ## 1.1 Part I - Preprocessing
 
 Part I included preprocessing of scRNA-seq reads and matrix creation (Galaxy WF). <br>Following steps were performed in the galaxy environment (usegalaxy.eu):  
-  (1) Mapping (RNAstar solo)  
-  (2) Utility for handling of SC input data (DropletUtils)  
-  (3) AD object creation.  
+  > (1) Mapping (RNAstar solo)  
+  > (2) Utility for handling of SC input data (DropletUtils)  
+  > (3) AD object creation.  
 
 ## 1.2 Part II - Integration of annotation and metadata 
 
