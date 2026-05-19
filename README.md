@@ -62,14 +62,14 @@ Part III of the processing included downstream processing pipeline for SC (scanp
 ## 1.4 Part IV - Functional analysis
 
 Part IV of the processing included downstream Functional analysis of the obtained (**) results. <br>Following analysis was performed:  
- (1) Conversion of the source .rds file into h5ad format (sceasy convert - usegalaxy.eu)  
- (2) Inspection, clean up and QC of the final adata object  
- (3) Single cell object processing w/scanpy  
- (4) Predict labels for query dataset  
- (5) HVG feature selection, scaling and dimensionality reduction  
- (6) Nearest neighbor graph construction  
- (7) Batch detection (see Figure 2) and removal (see Figure 3)  
- (8) Functional analysis - see following section.  
+> (1) Conversion of the source .rds file into h5ad format (sceasy convert - usegalaxy.eu)  
+> (2) Inspection, clean up and QC of the final adata object  
+> (3) Single cell object processing w/scanpy  
+> (4) Predict labels for query dataset  
+> (5) HVG feature selection, scaling and dimensionality reduction  
+> (6) Nearest neighbor graph construction  
+> (7) Batch detection (see Figure 2) and removal (see Figure 3)  
+> (8) Functional analysis - see following section.  
 
 # 2. Biological Interpretation of the Results 
 
@@ -233,9 +233,9 @@ Since the cell matrix contains other cell types as well, it is necessary to insp
 
 Under conditions of diabetes and metabolic stress, blood vessels often undergo Endothelial Dysfunction. They stop being smooth conduits and start leaking or expressing adhesion molecules that stress the surrounding cells.<br>
 For Investigation of endothelial cells, I used markers for vessel health, structural integrity, and stress:<br>
- (1) Structural/Identity (PECAM1 (CD31) and VWF (Von Willebrand Factor))<br>
- (2) Stress/Dysfunction (ICAM1 and SELE (Selectin E)) <br>
- (3) The epigenetic markers (EHMT1 and EHMT2).<br>
+> (1) Structural/Identity (PECAM1 (CD31) and VWF (Von Willebrand Factor))<br>
+> (2) Stress/Dysfunction (ICAM1 and SELE (Selectin E)) <br>
+> (3) The epigenetic markers (EHMT1 and EHMT2).<br>
 <br>
 The response of endothelial cell markers is shown on Figure 13:<br>
 
@@ -262,9 +262,9 @@ Blood vessels might be using an entirely different survival strategy, or they mi
 
 In the state of metabolic stress, immune cells secrete cytokines that modulate the activity of endocrine as well as exocrine cells. <br>
 I looked are the following type of immune response:<br>
-(1) Macrophage Activity --> CD68, CD163, and CD86<br>
-(2) Inflammatory Signals (Cytokines) --> IL1B, TNF, IL6<br>
-(3) Master regulator of inflammation --> NFKB1.<br>
+> (1) Macrophage Activity --> CD68, CD163, and CD86<br>
+> (2) Inflammatory Signals (Cytokines) --> IL1B, TNF, IL6<br>
+> (3) Master regulator of inflammation --> NFKB1.<br>
 <br>
 The response of these markers is plotted on the Figure 14.
 <br>
@@ -282,9 +282,9 @@ This behavior is counter intuitive, since under conditions of metabolic stress m
 
 **Epigenetic response**<br> 
 If EHMT1/2 were triggered by immune signals (cytokines), there should be high cytokine activity in the Treated group. Instead, we see the following behavior:
- (1) Low Immune Signals in Treated cells
- (2) High level of epigenetic response with EHMT1/2 in Treated cells 
- (3) High Stress (ADM/Beta failure) in Treated cells.<br>
+> (1) Low Immune Signals in Treated cells
+> (2) High level of epigenetic response with EHMT1/2 in Treated cells 
+> (3) High Stress (ADM/Beta failure) in Treated cells.<br>
 <br>
 This may suggest that the epigenetic regulators (EHMT1/2) could be responding directly to the high levels of glucose and lipids, rather than being instructed by the immune system.<br> 
 <br>
@@ -294,10 +294,10 @@ This may suggest that the epigenetic regulators (EHMT1/2) could be responding di
 Since the cells in this assay were exposed to abnormally high concentration of lipids and glucose, not usually found in the organism, it may be possible that they were simply dying from toxic shock.<br>
 This could be revealed by checking the apoptosis/cell senescence markers. Stressed cells exhibit any of the following markers:<br>
 
- (1) Apoptosis (BAX & BAK1, CASP3 & CASP9, FAS)<br>
- (2) Cell Senescence (CDKN1A (p21), TP53 (p53))<br>
- (3) ER Stress (DDIT3 (CHOP), ATF4 & HSPA5 (BiP))<nr>
- (4) Oxidative Damage (SOD1 & SOD2).<br>
+> (1) Apoptosis (BAX & BAK1, CASP3 & CASP9, FAS)<br>
+> (2) Cell Senescence (CDKN1A (p21), TP53 (p53))<br>
+> (3) ER Stress (DDIT3 (CHOP), ATF4 & HSPA5 (BiP))<nr>
+> (4) Oxidative Damage (SOD1 & SOD2).<br>
 
  Response of these markers is shown on Figure 15.
 
@@ -320,9 +320,9 @@ These cells semm to be undergoing both ER stress and experiencing oxidative dama
 # 5. Final conclussion<br>
 <br>
 In this study, we have the evidence of the following:<br>
- (1) Direct Metabolic Toxicity --> high concentration of glucose/lipids affects the cells<br>
- (2) Epigenetic activity --> manifested by EHMT1/2 response<br>
- (3) Paracrine Signaling --> stress signaling coming from the dying Exocrine cells (Acinar/Ductal) rather than the immune cells.<br>
+> (1) Direct Metabolic Toxicity --> high concentration of glucose/lipids affects the cells<br>
+> (2) Epigenetic activity --> manifested by EHMT1/2 response<br>
+> (3) Paracrine Signaling --> stress signaling coming from the dying Exocrine cells (Acinar/Ductal) rather than the immune cells.<br>
 <br>
 
 The high concentration to which the cells were exposed shows that they are overstressed and probably dying of lipo-gluco toxicity. <br>
@@ -331,9 +331,9 @@ This could indicate the limitation of the model that was used for this study and
 
 
 **References:**<br>  
- [1] Single-cell RNA Sequencing Uncovers Molecular Mechanisms of Human Pancreatic Islet Dysfunction Under Overnutrition Metabolic Stress (human)  <br>
- [2] Tabula sapiens - pancreas.h5ad  <br>
+> [1] Single-cell RNA Sequencing Uncovers Molecular Mechanisms of Human Pancreatic Islet Dysfunction Under Overnutrition Metabolic Stress (human)  <br>
+> [2] Tabula sapiens - pancreas.h5ad  <br>
 <br>
 Notes:<br>  
- (*) First three parts of the analysis were performed using a subset of full data available on the NCBI.  <br>
- (**) Part IV - the Functional analysis was performed on the raw data set provided by the authors of the study (section Supplementary file). The .rds file was first converted to h5ad file format in the Galaxy platform and then imported into pyhton environment. Functional analysis was performed using this file, not the file obtained in the Parts I-III 
+> (*) First three parts of the analysis were performed using a subset of full data available on the NCBI.  <br>
+> (**) Part IV - the Functional analysis was performed on the raw data set provided by the authors of the study (section Supplementary file). The .rds file was first converted to h5ad file format in the Galaxy platform and then imported into pyhton environment. Functional analysis was performed using this file, not the file obtained in the Parts I-III 
