@@ -29,35 +29,35 @@ Part I included preprocessing of scRNA-seq reads and matrix creation (Galaxy WF)
 ## 1.2 Part II - Integration of annotation and metadata 
 
 Part II of the processing included preprocessing of reference dataset [2] and its use for annotation of query dataset using scanpy ingest. It was performed on Google colab environment (Jupyter notebook w/python core - code can be made available on request). <br>Following steps were performed:  
- (1) Load and preprocess the reference dataset  
- (2) Import query dataset from google drive  
- (3) Update gene annotation for query dataset  
- (4) Preprocess query dataset  
- (5) Dimensionality reduction and clustering (query dataset)  
- (6) Remove cells not expected in query dataset from reference dataset  
- (7) Intersect genes between two datasets  
- (8) Map onto a reference dataset using ingest.  
+> (1) Load and preprocess the reference dataset  
+> (2) Import query dataset from google drive  
+> (3) Update gene annotation for query dataset  
+> (4) Preprocess query dataset  
+> (5) Dimensionality reduction and clustering (query dataset)  
+> (6) Remove cells not expected in query dataset from reference dataset  
+> (7) Intersect genes between two datasets  
+> (8) Map onto a reference dataset using ingest.  
 
 ## 1.3 Part III - single cell object Processing pipeline
 
 Part III of the processing included downstream processing pipeline for SC (scanpy standard flow). It was performed on Google colab environment (Jupyter notebook w/python core - code can be made available on request). <br>Following steps were performed:  
- (1) Load AD object from Galaxy  
- (2) Filter out reads containing genes that are not of interest (Mitochondrial, ribosomal, hemoglobin genes, pseudogenes etc.)  
- (3) Filter cells based on quality  
- (4) Doublet detection  
- (5) Normalization  
- (6) Feature selection  
- (7) Dimensionality reduction  
- (8) Nearest neighbor graph constuction and visualization (UMAP)  
- (9) Clustering with Leiden comunity  
- (10) Quality control and cell filtering - reassessment  
- (11) Cluster annotation  
- (12) Create markers for known Pancreatic cell types  
- (13) Create dotplots to identify markers per cluster  
- (14) Plot top cluster marker genes  
- (15) Differentially expressed genes  
- (16) Automatic cell type annotation (celltypist)  
- (17) Trajectory inference.  
+> (1) Load AD object from Galaxy  
+> (2) Filter out reads containing genes that are not of interest (Mitochondrial, ribosomal, hemoglobin genes, pseudogenes etc.)  
+> (3) Filter cells based on quality  
+> (4) Doublet detection  
+> (5) Normalization  
+> (6) Feature selection  
+> (7) Dimensionality reduction  
+> (8) Nearest neighbor graph constuction and visualization (UMAP)  
+> (9) Clustering with Leiden comunity  
+> (10) Quality control and cell filtering - reassessment  
+> (11) Cluster annotation  
+> (12) Create markers for known Pancreatic cell types  
+> (13) Create dotplots to identify markers per cluster  
+> (14) Plot top cluster marker genes  
+> (15) Differentially expressed genes  
+> (16) Automatic cell type annotation (celltypist)  
+> (17) Trajectory inference.  
 
 ## 1.4 Part IV - Functional analysis
 
