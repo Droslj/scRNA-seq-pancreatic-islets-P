@@ -121,7 +121,7 @@ The UMAP plot reveals that secretion of Ghrelin is most intense in the vicinity 
 
 ## 2.2 Metabolic stress
 
-Figure 7 shows response to metabolic stress of cells under test in a dotplot. Following markers were used:<br>
+Figure 7 shows response to metabolic stress of cells under test in a dotplot. I used following markers as indicators:<br>
  - GCG -> most significant product of alpha cells<br>
  - INS -> most significant product of beta cells<br> 
  - EHMT1, EHMT2 -> Epigenetic modulators driving the remodeling of gene regulatory network under stress<br> 
