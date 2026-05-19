@@ -329,10 +329,10 @@ This could indicate the limitation of the model that was used for this study and
 <br>
 
 
-**References:**<br>  
-> [1] Single-cell RNA Sequencing Uncovers Molecular Mechanisms of Human Pancreatic Islet Dysfunction Under Overnutrition Metabolic Stress (human)  <br>
-> [2] Tabula sapiens - pancreas.h5ad  <br>
+**References**<br>  
+ [1] Single-cell RNA Sequencing Uncovers Molecular Mechanisms of Human Pancreatic Islet Dysfunction Under Overnutrition Metabolic Stress (human)  <br>
+ [2] Tabula sapiens - pancreas.h5ad  <br>
 <br>
-Notes:<br>  
-> (*) First three parts of the analysis were performed using a subset of full data available on the NCBI.  <br>
-> (**) Part IV - the Functional analysis was performed on the raw data set provided by the authors of the study (section Supplementary file). The .rds file was first converted to h5ad file format in the Galaxy platform and then imported into pyhton environment. Functional analysis was performed using this file, not the file obtained in the Parts I-III 
+**Notes**<br>  
+ (*) First three parts of the analysis were performed using a subset of full data available on the NCBI.  <br>
+ (**) Part IV - the Functional analysis was performed on the raw data set provided by the authors of the study (section Supplementary file). The .rds file was first converted to h5ad file format in the Galaxy platform and then imported into pyhton environment. Functional analysis was performed using this file, not the file obtained in the Parts I-III 
