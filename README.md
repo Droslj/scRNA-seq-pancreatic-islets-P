@@ -227,7 +227,7 @@ By ramping up  SST, these cells are likely trying to shut down the Alpha and Bet
 
 Since the cell matrix contains other cell types as well, it is necessary to inspect how they responded to conditions of metabolic stress. I examined the response of two types of cells<br>
  - Endothelial cells --> In conditions of overnutritions, vessel stress may be expected<br>
- - Immune cells --> In a state of glucolipotoxicity (metabolic stress), immune cells release cytokines, that (1) directly force Beta cells to stop making insulin and (2) push Acinar cells toward that ductal (ADM) identity crisis<br>
+ - Immune cells --> In a state of glucolipotoxicity (metabolic stress), immune cells release cytokines, that (1) directly force Beta cells to stop making insulin and (2) push Acinar cells toward ductal (ADM) identity.<br>
 
 ## 3.1 Response of Endothelial cells
 
