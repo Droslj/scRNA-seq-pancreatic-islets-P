@@ -3,7 +3,7 @@
 
 Samples used for this case study come from the following study [1] <br>
 
-The contents of this study:  
+The contents of this study:
  - This study examined the functional changes of different pancreatic cells under conditions of metabolic stress (overnutrition).<br>
  - I performed complete scRNA cell raw data processing using different platforms and tools
  - Final functional analysis was performed using scanpy. 
@@ -329,7 +329,7 @@ This could indicate the limitation of the model that was used for this study and
 
 
 **References**<br>
- [1] Single-cell RNA Sequencing Uncovers Molecular Mechanisms of Human Pancreatic Islet Dysfunction Under Overnutrition Metabolic Stress (human)  <br>
+ [1] Single-cell RNA Sequencing Uncovers Molecular Mechanisms of Human Pancreatic Islet Dysfunction Under Overnutrition Metabolic Stress (human), NCBI PRJNA1187619<br>
  [2] Tabula sapiens - pancreas.h5ad  <br>
 <br>
 **Notes**<br>
